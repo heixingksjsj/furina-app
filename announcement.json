@@ -1,6 +1,6 @@
 {
   "show": true,
-  "version": 8,
-  "title": "🎉 v3.9.8 即将发布！",
-  "content": "大家久等了！  好消息：v3.9.8 新版本即将上线，本次将继续优化下载体验，修复之前反馈的问题。  请留意后续更新提示，感谢大家的支持与耐心～   —— 伟大的芙宁娜女士"
+  "version": 9,
+  "title": "🚀 v3.9.8 正式发布！",
+  "content": "本次为重要的安全架构升级：  【密钥不再进 App】 上游 API 密钥已从客户端彻底移除，改由云端中转服务器安全托管，反编译 App 也拿不到任何密钥。  【免费通道更稳】 内置免费通道已切换至全新中转线路，启动时自动连接服务器拉取模型列表与校验。  【当前可用模型】 [WK]deepseek-v4-pro、[WK]deepseek-v4.1-flash、agy-gemini-2.5-flash-lite、agy-gemini-3.1-pro-low、agy-gemini-3.6-flash-low、[rx]sensenova-6.8-flash-lite  请在 App 内检查更新升级体验～   —— 伟大的芙宁娜女士"
 }
