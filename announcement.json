@@ -1,6 +1,6 @@
 {
   "show": true,
-  "version": 9,
-  "title": "🚀 v3.9.8 正式发布！",
-  "content": "本次为重要的安全架构升级：  【密钥不再进 App】 上游 API 密钥已从客户端彻底移除，改由云端中转服务器安全托管，反编译 App 也拿不到任何密钥。  【免费通道更稳】 内置免费通道已切换至全新中转线路，启动时自动连接服务器拉取模型列表与校验。  【当前可用模型】 [WK]deepseek-v4-pro、[WK]deepseek-v4.1-flash、agy-gemini-2.5-flash-lite、agy-gemini-3.1-pro-low、agy-gemini-3.6-flash-low、[rx]sensenova-6.8-flash-lite  请在 App 内检查更新升级体验～   —— 伟大的芙宁娜女士"
+  "version": 10,
+  "title": "🎭 角色扮演模型大升级！",
+  "content": "免费通道模型全面升级为 10 个精选角色扮演模型（实测筛选，个个能打）：  · 灵犀 glm-5.3-flash —— 角色感最强  · 流光 gemini-3.1-pro-nothinking —— 极速秒回  · 灵巧 glm-5.2 —— 灵动鲜活  · 细腻 kimi-k2.6 —— 描写细腻  · 迅捷 gemini-3.8-flash —— 稳定快速  · 温柔 minimax-m2.7 —— 治愈系  · 华章 gemini-3.1-pro-high —— 高配旗舰  · 睿智 gemini-3.1-pro-low —— 稳定可靠  · 不朽 抗截断gemini-3.1-pro —— 长记忆最强  · 均衡 gemini-3.1-pro-preview —— 综合全面  每个模型都有专属中文名、标签和介绍，启动 App 自动拉取，无需手动配置～   —— 伟大的芙宁娜女士"
 }
