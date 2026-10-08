@@ -15,6 +15,8 @@
  *   7 个串行就是 14 秒 —— 启动慢到不可接受。
  *   合并成单个 bundle 后只需一次请求。
  *
+ * 生成命令: python3 /root/work/make-hot-bundle.py
+ *
  * ⚠️ 顺序有意义，不能重排（后面的依赖前面的定义）。
  */
 (function () {
@@ -2749,7 +2751,7 @@
   var GH_UPDATE_KEY = 'furina_gh_update';
   var GH_ANNOUNCE_KEY = 'furina_gh_announcement';
   // 当前打包的 App 版本号（发版时同步改这里；与 patch/index 的 "version" 字段保持一致）
-  var FURINA_BUILD_VERSION = '4.5.9';
+  var FURINA_BUILD_VERSION = '4.6.0';
   // 下载中转基址（国内可达）
   var FURINA_DL_BASE = 'https://dsheita1.dpdns.org/dl?url=';
 
