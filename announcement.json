@@ -1,6 +1,6 @@
 {
   "show": true,
-  "version": 20,
-  "title": "🎀 芙宁娜 v4.5.1 更新",
-  "content": "版本 4.5.1 已发布\n\n【本次更新】\n· 版本号更新至 4.5.1\n· 保持 5 秒热更新检测，收到推送即刻提示\n· 更新弹窗层级优化，不会被其他界面遮挡\n\n【下载方式】\n点击下方链接即可下载（已走加速中转，国内网络可直接打开）：\n\nhttps://dsheita1.dpdns.org/dl?url=https%3A%2F%2Fgithub.com%2Fheixingksjsj%2Ffurina-app%2Freleases%2Fdownload%2Fv4.5.1%2Ffunina-v4.5.1.apk\n\n如果提示无法打开，请复制链接到浏览器打开。\n\n—— 伟大的芙宁娜女士"
+  "version": 21,
+  "title": "📮 芙宁娜 v4.5.2 测试版",
+  "content": "修复：信箱里的更新记录不刷新\n\n【问题】\n信箱一直停在旧版本（比如只显示到 4.4.5），新版本的更新记录进不来。\n\n【原因】\n信箱只在 App 启动后拉取一次，之后要等 3 分钟。\n如果那一次刚好网络不好，就会静默失败 ——\n界面上看不出任何异常，本地缓存就永远停在失败前的状态。\n\n【修复】\n· 每次打开信箱都会主动同步一次，不再依赖后台轮询\n· 右上角新增刷新按钮 ⟳，可随时手动同步\n· 顶部会显示同步状态（正在检查 / 已同步 N 封 / 同步失败原因）\n· 拉取超时从 8 秒放宽到 20 秒（更新列表较大，弱网下容易超时）\n· 后台轮询从 3 分钟缩短到 60 秒\n\n【下载】\nhttps://dsheita1.dpdns.org/dl?url=https%3A%2F%2Fgithub.com%2Fheixingksjsj%2Ffurina-app%2Freleases%2Fdownload%2Fv4.5.2%2Ffunina-v4.5.2.apk\n\n—— 伟大的芙宁娜女士"
 }
