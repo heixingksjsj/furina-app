@@ -1,6 +1,6 @@
 {
   "show": true,
-  "version": 19,
-  "title": "🎉 芙宁娜 v4.5.0 更新",
-  "content": "本次为测试推送版本，用于验证更新通道。\n\n主要变化：\n· 基于 v4.4.9 稳定基线打包\n· 保留 5 秒更新轮询与全部修复\n· 强制更新已开启\n\n更新方式：完全退出 App 后重新打开，会收到更新提示。"
+  "version": 20,
+  "title": "🎀 芙宁娜 v4.5.1 更新",
+  "content": "版本 4.5.1 已发布\n\n【本次更新】\n· 版本号更新至 4.5.1\n· 保持 5 秒热更新检测，收到推送即刻提示\n· 更新弹窗层级优化，不会被其他界面遮挡\n\n【下载方式】\n点击下方链接即可下载（已走加速中转，国内网络可直接打开）：\n\nhttps://dsheita1.dpdns.org/dl?url=https%3A%2F%2Fgithub.com%2Fheixingksjsj%2Ffurina-app%2Freleases%2Fdownload%2Fv4.5.1%2Ffunina-v4.5.1.apk\n\n如果提示无法打开，请复制链接到浏览器打开。\n\n—— 伟大的芙宁娜女士"
 }
