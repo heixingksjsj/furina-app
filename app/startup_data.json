@@ -13,18 +13,18 @@
     "content": "<div style='padding:4px 0;line-height:1.8;color:#2d3436;'><div style='background:#fff5f5;border-radius:10px;padding:14px 18px;margin-bottom:10px;border-left:4px solid #e17055;'><div style='font-weight:600;font-size:1em;color:#d63031;margin-bottom:4px;'>✦ 核心功能</div><div style='font-size:0.92em;color:#555;'>· 自定义API接入（OpenAI兼容）<br>· 角色卡导入/导出（PNG，支持SillyTavern等）<br>· 世界书/剧情设定集（关键词触发）<br>· 正则表达式替换引擎<br>· 对话历史与向量记忆检索（RAG）<br>· 角色状态栏/动态状态显示</div></div><div style='background:#f0f8ff;border-radius:10px;padding:14px 18px;margin-bottom:10px;border-left:4px solid #0984e3;'><div style='font-weight:600;font-size:1em;color:#0984e3;margin-bottom:4px;'>✦ 交互体验</div><div style='font-size:0.92em;color:#555;'>· 多角色群聊模式<br>· Live2D动态立绘<br>· 全屏沉浸模式</div></div><div style='background:#f0fff4;border-radius:10px;padding:14px 18px;margin-bottom:10px;border-left:4px solid #00b894;'><div style='font-weight:600;font-size:1em;color:#00b894;margin-bottom:4px;'>✦ 数据安全</div><div style='font-size:0.92em;color:#555;'>· 本地IndexedDB存储<br>· 支持数据备份与恢复</div></div><div style='background:#fffff0;border-radius:10px;padding:14px 18px;margin-bottom:10px;border-left:4px solid #fdcb6e;'><div style='font-weight:600;font-size:1em;color:#e17055;margin-bottom:4px;'>✦ 更多特性</div><div style='font-size:0.92em;color:#555;'>· 好感度与成就系统<br>· 自定义背景/主题/字体<br>· 自定义BGM<br>· 语音合成（TTS）<br>· AI生图<br>· 预设Prompt模板<br>· 正则全局替换与角色独立正则<br>· 完整中文本地化</div></div><div style='background:#fff8e1;border-radius:10px;padding:14px 18px;border:1px solid #ffb74d;margin-bottom:12px;'><div style='font-weight:600;color:#e65100;margin-bottom:2px;'>⚠️ 注意</div><div style='font-size:0.92em;color:#555;'>如遇使用问题，请加入以下群组获取帮助：&nbsp; 官方QQ群：1109882375</div></div><div style='text-align:center;background:#fafafa;border-radius:10px;padding:16px;border:1px solid #eee;margin-bottom:10px;'><div style='font-weight:600;color:#2d3436;margin-bottom:8px;'>📷 官方QQ群二维码</div><img src='/assets/qq-qrcode.jpg' style='width:100%;max-width:400px;border-radius:8px;display:block;margin:0 auto;' alt='官方QQ群二维码' /></div><div style='text-align:center;padding-top:8px;border-top:1px solid #eee;font-size:0.85em;color:#b2bec3;'>作者：摆烂的咸鱼</div></div>"
   },
   "version": {
-    "version": "4.6.8",
-    "title": "芙宁娜 v4.6.8",
+    "version": "4.6.9",
+    "title": "芙宁娜 v4.6.9",
     "notes": [
-      "## 芙宁娜 v4.6.8 更新说明",
-      "修复 _safeJson 重名导致的更新推送完全失效（根因）",
+      "## 芙宁娜 v4.6.9 更新说明",
+      "更新推送修复验证版",
       "> 下载下方 APK 安装即可。"
     ],
-    "apkUrl": "https://dsheita1.dpdns.org/dl?url=https%3A%2F%2Fgithub.com%2Fheixingksjsj%2Ffurina-app%2Freleases%2Fdownload%2Fv4.6.8%2Ffunina-v4.6.8.apk",
-    "apkRaw": "https://github.com/heixingksjsj/furina-app/releases/download/v4.6.8/funina-v4.6.8.apk",
+    "apkUrl": "https://dsheita1.dpdns.org/dl?url=https%3A%2F%2Fgithub.com%2Fheixingksjsj%2Ffurina-app%2Freleases%2Fdownload%2Fv4.6.9%2Ffunina-v4.6.9.apk",
+    "apkRaw": "https://github.com/heixingksjsj/furina-app/releases/download/v4.6.9/funina-v4.6.9.apk",
     "apkSize": 68904859,
     "forceUpdate": true,
-    "publishedAt": "2026-10-09T06:24:31Z"
+    "publishedAt": "2026-10-09T06:45:33Z"
   },
   "modelConfig": {
     "version": 27,
