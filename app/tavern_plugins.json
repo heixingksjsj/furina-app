@@ -1,0 +1,1386 @@
+{
+ "schemaVersion": 1,
+ "source": "sillytavern-ecosystem",
+ "updatedAt": "2026-10-09",
+ "note": "酒馆（SillyTavern）扩展生态清单。status 含义：adapted=已有原生等价插件可直接用；compatible=依赖校验通过（尚未实机验证）；partial=部分适配，需打包依赖或补 API；unsupported=依赖宿主不具备的能力，暂时无法运行。",
+ "total": 153,
+ "items": [
+  {
+   "id": "tavern-pixelnull-sillytavern-deeplore",
+   "name": "DeepLore",
+   "repo": "https://github.com/pixelnull/sillytavern-DeepLore",
+   "stars": 87,
+   "desc": "AI-powered lorebook engine for SillyTavern. It retrieves relevant lore from your Obsidian vault using keyword matching and AI search, then injects it into conte",
+   "status": "adapted",
+   "reason": "已由本店「世界书诊断器」覆盖匹配诊断能力"
+  },
+  {
+   "id": "tavern-lodactio-extension-summaryception",
+   "name": "Extension Summaryception",
+   "repo": "https://github.com/Lodactio/Extension-Summaryception",
+   "stars": 166,
+   "desc": "Sillytavern memory plug-in",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-wickedcode01-st-image-auto-generation",
+   "name": "st image auto generation",
+   "repo": "https://github.com/wickedcode01/st-image-auto-generation",
+   "stars": 119,
+   "desc": "It's a plugin for sillytavern, allows you to generate images automatically.",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-mattjaybe-sillytavern-pathweaver",
+   "name": "Pathweaver",
+   "repo": "https://github.com/mattjaybe/SillyTavern-Pathweaver",
+   "stars": 118,
+   "desc": "A SillyTavern extension that turn your story and roleplay into an adventure with intelligent story suggestions powered by AI.",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-mattjaybe-sillytavern-echochamber",
+   "name": "EchoChamber",
+   "repo": "https://github.com/mattjaybe/SillyTavern-EchoChamber",
+   "stars": 102,
+   "desc": "A SillyTavern extension that generates AI-powered \"audience\" reactions in various chat styles (Discord/Twitch, Twitter, News, MST3K, etc.) that appear below the",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-bmen25124-sillytavern-mcp-client",
+   "name": "MCP Client",
+   "repo": "https://github.com/bmen25124/SillyTavern-MCP-Client",
+   "stars": 97,
+   "desc": "An extension of MCP for SillyTavern.",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-bmen25124-sillytavern-roadway",
+   "name": "Roadway",
+   "repo": "https://github.com/bmen25124/SillyTavern-Roadway",
+   "stars": 82,
+   "desc": "A SillyTavern extension that helps you to make decisions about the story. It could give an idea.",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-bronie-honkai-st-indextts-player",
+   "name": "st indextts player",
+   "repo": "https://github.com/bronie-honkai/st-indextts-player",
+   "stars": 77,
+   "desc": "IndexTTS2 Player - Advanced TTS plugin for SillyTavern",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-wancddy-st-ctrl",
+   "name": "ST Ctrl",
+   "repo": "https://github.com/wancDDY/ST-Ctrl",
+   "stars": 60,
+   "desc": "SillyTavern（酒馆）Android 容器。将 Node.js v18.20.4 和 SillyTavern 打包进原生 App，免配置即装即用。支持完整备份还原、扩展管理、4 档性能模式、前台服务保活。最低 Android 8.0。",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-qiqi20020612-sillytavern-telegram-connector",
+   "name": "Telegram Connector",
+   "repo": "https://github.com/qiqi20020612/SillyTavern-Telegram-Connector",
+   "stars": 56,
+   "desc": "SillyTavern Telegram Connector 是一个为 SillyTavern 设计的扩展，允许用户通过 Telegram 与 SillyTavern 中的 AI 角色进行交互。该扩展建立了 SillyTavern 与 Telegram 机器人之间的桥接，使用户能够在移动设备上随时随地与他们喜爱的 AI",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-ayeeminerva-sillytavern-extension-chatbridge",
+   "name": "Extension ChatBridge",
+   "repo": "https://github.com/AyeeMinerva/SillyTavern-Extension-ChatBridge",
+   "stars": 48,
+   "desc": "A WebSocket bridge extension for SillyTavern that enables bidirectional real-time communication with external applications. Supports chat history synchronizatio",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-senriyuki-sillytavern-charites",
+   "name": "Charites",
+   "repo": "https://github.com/SenriYuki/SillyTavern-Charites",
+   "stars": 44,
+   "desc": "SillyTavern 可視化美化主題定制插件/A visual theme customization plugin for SillyTavern. ✨",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-bmen25124-sillytavern-wtracker",
+   "name": "WTracker",
+   "repo": "https://github.com/bmen25124/SillyTavern-WTracker",
+   "stars": 40,
+   "desc": "A SillyTavern extension that tracking stats with LLMs",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-enclave0775-intiface-central-sillytavern-plugin",
+   "name": "Intiface_Central Sillytavern plugin",
+   "repo": "https://github.com/Enclave0775/Intiface_Central-Sillytavern-plugin",
+   "stars": 40,
+   "desc": "A SillyTavern plugin that integrates Intiface Central and Buttplug.io for haptic device interactions during AI roleplay.",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-jlyang1900-general-map",
+   "name": "General_Map",
+   "repo": "https://github.com/JLYANG1900/General_Map",
+   "stars": 34,
+   "desc": "General Map - 全自定义酒馆地图插件：这款插件专为所有SillyTavern用户设计，旨在提供一个全动态、高自由度的交互式地图系统。它彻底摒弃了硬编码的静态结构，将世界的构建权完全交还给你！This plugin is designed exclusively for all SillyTavern use",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-rurijian-kimithinkingprefill",
+   "name": "KimiThinkingPrefill",
+   "repo": "https://github.com/Rurijian/KimiThinkingPrefill",
+   "stars": 31,
+   "desc": "SillyTavern extension: client-side reasoning_content thinking prefill for Kimi/Moonshot models (kimi-k3-jb patch equivalent, no server modifications)",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-city-unit-st-extension-example",
+   "name": "st extension example",
+   "repo": "https://github.com/city-unit/st-extension-example",
+   "stars": 29,
+   "desc": "Basic 3rd Party Extension Example for SillyTavern",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-mooooooon-st-input-helper",
+   "name": "st input helper",
+   "repo": "https://github.com/Mooooooon/st-input-helper",
+   "stars": 26,
+   "desc": "Basic 3rd Party Extension Example for SillyTavern",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-mooooooon-silly-tavern-reminder",
+   "name": "silly tavern reminder",
+   "repo": "https://github.com/Mooooooon/silly-tavern-reminder",
+   "stars": 23,
+   "desc": "一个为 SillyTavern 提供消息提醒功能的扩展。  A SillyTavern extension that provides message reminder functionality.",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-thirteen-moons-st-indextts2-x-player",
+   "name": "ST indexTTS2 X Player",
+   "repo": "https://github.com/Thirteen-Moons/ST-indexTTS2-X-Player",
+   "stars": 18,
+   "desc": "A text-to-speech (TTS) extension designed for SillyTavern.",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-sillytavern-extension-reacttemplate",
+   "name": "Extension ReactTemplate",
+   "repo": "https://github.com/SillyTavern/Extension-ReactTemplate",
+   "stars": 17,
+   "desc": "Template repository for SillyTavern extensions using React and Webpack.",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-actualbroeckchen-instead",
+   "name": "inSTead",
+   "repo": "https://github.com/ActualBroeckchen/inSTead",
+   "stars": 17,
+   "desc": "A small extension to enhance swipes in SillyTavern.",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-tech-explorer-ai-st-cinemamode",
+   "name": "ST CinemaMode",
+   "repo": "https://github.com/Tech-Explorer-AI/ST-CinemaMode",
+   "stars": 17,
+   "desc": "将SillyTavern的聊天过程转换为Galgame风格的影院播放器。ST-Cinema Mode is a powerful SillyTavern extension that transforms your AI chat experience into an immersive visual novel / ",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-chaaruze-sillytavern-too-many-chats",
+   "name": "Too Many Chats",
+   "repo": "https://github.com/chaaruze/SillyTavern-Too-Many-Chats",
+   "stars": 16,
+   "desc": "Unmaintained SillyTavern extension for organizing chats into persistent per-character folders.",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-berry-thelight-janitorai-downloader-exporter",
+   "name": "janitorai downloader exporter",
+   "repo": "https://github.com/berry-thelight/janitorai-downloader-exporter",
+   "stars": 16,
+   "desc": "A browser extension that downloads and exports JanitorAI chats as .json, .epub, .txt, .md & SillyTavern chats (.jsonl) with ease.",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-nana3333333-st-autopulse",
+   "name": "ST AutoPulse",
+   "repo": "https://github.com/NANA3333333/ST-AutoPulse",
+   "stars": 16,
+   "desc": "",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-thiagoribas-dev-sillytavern-state",
+   "name": "State",
+   "repo": "https://github.com/ThiagoRibas-dev/SillyTavern-State",
+   "stars": 15,
+   "desc": "Silly Tavern extension",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-globalmeltdown-romance-meter",
+   "name": "romance meter",
+   "repo": "https://github.com/GlobalMeltdown/romance-meter",
+   "stars": 15,
+   "desc": "Romance Meter Extension for SillyTavern",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-jeka201216-silly-map",
+   "name": "Silly Map",
+   "repo": "https://github.com/Jeka201216/Silly-Map",
+   "stars": 15,
+   "desc": "A D&D-style interactive map extension for SillyTavern designed for better roleplay visualization.",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-bobthebinchicken-ultimate-chatassistant",
+   "name": "Ultimate ChatAssistant",
+   "repo": "https://github.com/BobTheBinChicken/Ultimate-ChatAssistant",
+   "stars": 15,
+   "desc": "Ultimate-ChatAssistant is a SillyTavern extension that gives you greater control during your chats. Manage character states, group chats, and narrative states. ",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-bbonvi-sillytavern-repetition-inspector",
+   "name": "Repetition Inspector",
+   "repo": "https://github.com/bbonvi/SillyTavern-Repetition-Inspector",
+   "stars": 14,
+   "desc": "",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-avilnetro-all-but-this-swipe",
+   "name": "all but this swipe",
+   "repo": "https://github.com/Avilnetro/all-but-this-swipe",
+   "stars": 14,
+   "desc": "A SillyTavern extension that adds a \"Delete All But This Swipe\" option to the message deletion prompt, allowing you to discard every unused swipe on a message i",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-pathetic777-st-tavern-architect",
+   "name": "st tavern architect",
+   "repo": "https://github.com/pathetic777/st-tavern-architect",
+   "stars": 14,
+   "desc": "3D Scene & Architecture Generator for SillyTavern via Dual-Agent & Three.js (Real-time Spatial Rendering)",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-lenanderson-sillytavern-pluginmanager",
+   "name": "PluginManager",
+   "repo": "https://github.com/LenAnderson/SillyTavern-PluginManager",
+   "stars": 13,
+   "desc": "Install, update, and uninstall server plugins from the client.",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-frostbd-st-custom-fonts",
+   "name": "st custom fonts",
+   "repo": "https://github.com/FrostBD/st-custom-fonts",
+   "stars": 13,
+   "desc": "This extension for Silly Tavern allows you to use different fonts.",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-b4bysw0rld-sillytavern-typefacer",
+   "name": "TypefaceR",
+   "repo": "https://github.com/b4bysw0rld/SillyTavern-TypefaceR",
+   "stars": 12,
+   "desc": "A SillyTavern extension that allows you to customize fonts for chat messages, including support for local system fonts and Google Fonts.",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-jlyang1900-cte-esport-map",
+   "name": "CTE_Esport_Map",
+   "repo": "https://github.com/JLYANG1900/CTE_Esport_Map",
+   "stars": 12,
+   "desc": "CTE Esport Map 是一款专为 SillyTavern 打造的沉浸式互动地图插件，旨在为电竞战队助理故事提供极具代入感的可视化舞台。CTE Esport Map is an immersive interactive map plugin exclusively crafted for SillyTavern",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-nemovonnirgend-sillytavern-moodmusic-extension",
+   "name": "SIllytavern Moodmusic extension",
+   "repo": "https://github.com/NemoVonNirgend/SIllytavern-Moodmusic-extension",
+   "stars": 11,
+   "desc": "A Sillytavern API for Spotify interaction and automatic music selection.",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-lenanderson-sillytavern-everything",
+   "name": "Everything",
+   "repo": "https://github.com/LenAnderson/SillyTavern-Everything",
+   "stars": 11,
+   "desc": "Access every exported variable and function from SillyTavern and installed extensions.",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-virgilianshailer-story-tracker",
+   "name": "story tracker",
+   "repo": "https://github.com/virgilianshailer/story-tracker",
+   "stars": 11,
+   "desc": "A SillyTavern extension that automatically tracks time, date, location, character positions, and recent events in your roleplay. It uses the LLM to analyze the ",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-liamdobbelaere-sillytavern-mp",
+   "name": "mp",
+   "repo": "https://github.com/LiamDobbelaere/sillytavern-mp",
+   "stars": 10,
+   "desc": "Unofficial multiplayer extension for SillyTavern, works but can be fragile.",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-ayvencore-sillytavern-another-character-library",
+   "name": "Sillytavern Another Character Library",
+   "repo": "https://github.com/ayvencore/Sillytavern-Another-Character-Library",
+   "stars": 10,
+   "desc": "An SillyTavern extension that replaces the default landing page with a rich character library view.",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-qvink-sillytavern-rightclickmessagemenu",
+   "name": "RightClickMessageMenu",
+   "repo": "https://github.com/qvink/SillyTavern-RightClickMessageMenu",
+   "stars": 10,
+   "desc": "Extension for SillyTavern that adds a right-click context menu for message buttons",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-bronya-rand-garden-of-recollection",
+   "name": "Garden Of Recollection",
+   "repo": "https://github.com/Bronya-Rand/Garden-Of-Recollection",
+   "stars": 10,
+   "desc": "A SillyTavern extension that collects all your characters and group chats and transports you back in time.",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-aceeenvw-notsosillynotsoimages",
+   "name": "notsosillynotsoimages",
+   "repo": "https://github.com/aceeenvw/notsosillynotsoimages",
+   "stars": 10,
+   "desc": "Inline image generation for SillyTavern. Images appear right inside chat messages. No separate panel. No workflow interruption.",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-wewwaistyping-slayimages",
+   "name": "SLAYimages",
+   "repo": "https://github.com/wewwaistyping/SLAYimages",
+   "stars": 9,
+   "desc": "💅🔥 SillyTavern extension — inline image generation with wardrobe + NPC references",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-bronya-rand-bronie-parser-extension",
+   "name": "Bronie Parser Extension",
+   "repo": "https://github.com/Bronya-Rand/Bronie-Parser-Extension",
+   "stars": 9,
+   "desc": "A SillyTavern extension that adds third-party scrapers to SillyTavern's Data Bank.",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-lukathehero-sillytavern-personatools",
+   "name": "PersonaTools",
+   "repo": "https://github.com/LukaTheHero/SillyTavern-PersonaTools",
+   "stars": 9,
+   "desc": "A combined SillyTavern extension for persona management — quick switcher, folders, tags, and styled tooltips",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-cgstever-statefullore",
+   "name": "StatefulLore",
+   "repo": "https://github.com/cgstever/StatefulLore",
+   "stars": 9,
+   "desc": "SillyTavern extension that replaces the built-in lorebook with a stateful, code-driven lore engine.",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-zhaoyichan-sillytavern-plugin-hcdiary",
+   "name": "Plugin HCDiary",
+   "repo": "https://github.com/zhaoyichan/SillyTavern-Plugin-HCDiary",
+   "stars": 9,
+   "desc": "SillyTavern 剧情记忆引擎：自动角色日记/人物关系/剧情档案，RAG向量检索+注入，内置『仪式注入台』(命运骰/好感引擎/状态栏/平行世界/弹幕/论坛/伏笔/前端生成等符契)。",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-cha1latte-sillytavern-real-world-weather",
+   "name": "real world weather",
+   "repo": "https://github.com/cha1latte/sillytavern-real-world-weather",
+   "stars": 8,
+   "desc": "A SillyTavern extension that fetches real-world weather data to enhance roleplay immersion.",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-zapoverde-sillytavern-structurize",
+   "name": "Structurize",
+   "repo": "https://github.com/ZapoVerde/SillyTavern-Structurize",
+   "stars": 8,
+   "desc": "A SillyTavern extension that formats activated lorebook entries before they are injected into the main prompt.",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-sachinkmr-sillytavern-tts-real-time-streaming",
+   "name": "TTS Real Time Streaming",
+   "repo": "https://github.com/sachinkmr/SillyTavern-TTS-Real-Time-Streaming",
+   "stars": 8,
+   "desc": "SillyTavern extension — real-time LLM token streaming to Qwen3-TTS via WebSocket. Speaks each sentence as it is generated.",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-enclave0775-cstt-sillytavern-plugin",
+   "name": "CSTT Plugin",
+   "repo": "https://github.com/Enclave0775/CSTT-SillyTavern-Plugin",
+   "stars": 8,
+   "desc": "SillyTavern 中文繁簡轉換擴充，支援角色卡、World Info、Preset 與 AI 回覆即時轉換。",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-inkfoxxxx-sillytavern-theme-manager",
+   "name": "theme manager",
+   "repo": "https://github.com/inkfoxxxx/sillytavern-theme-manager",
+   "stars": 8,
+   "desc": "A plugin for SillyTavern to better organize and manage UI themes",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-jlyang1900-st-music",
+   "name": "ST_Music",
+   "repo": "https://github.com/JLYANG1900/ST_Music",
+   "stars": 8,
+   "desc": "AI Role Play + AI Music. 这是一款用于与SillyTavern AI角色一起创作AI音乐的插件。This is a plugin for creating AI music with the SillyTavern AI characters.",
+   "status": "compatible",
+   "reason": "轻量实现，依赖宿主已具备的能力（依赖校验通过，尚未实机验证）"
+  },
+  {
+   "id": "tavern-senriyuki-sillytavern-horae",
+   "name": "Horae",
+   "repo": "https://github.com/SenriYuki/SillyTavern-Horae",
+   "stars": 197,
+   "desc": "SillyTavern 记忆增强插件 / Memory enhancement extension for SillyTavern",
+   "status": "partial",
+   "reason": "依赖较少，可适配但未完成"
+  },
+  {
+   "id": "tavern-supker-st-copilot",
+   "name": "ST Copilot",
+   "repo": "https://github.com/Supker/ST-Copilot",
+   "stars": 78,
+   "desc": "SillyTavern Meta-Assistant Extension",
+   "status": "partial",
+   "reason": "需随插件打包 1 个第三方依赖"
+  },
+  {
+   "id": "tavern-prolix-oc-sillytavern-simtracker",
+   "name": "SimTracker",
+   "repo": "https://github.com/prolix-oc/SillyTavern-SimTracker",
+   "stars": 63,
+   "desc": "Silly Sim Tracker is a SillyTavern extension that creates visual tracker cards from JSON data in chat messages. Perfect for RPGs, dating sims, or any scenario r",
+   "status": "partial",
+   "reason": "依赖较少，可适配但未完成"
+  },
+  {
+   "id": "tavern-bmen25124-sillytavern-weatherpack",
+   "name": "WeatherPack",
+   "repo": "https://github.com/bmen25124/SillyTavern-WeatherPack",
+   "stars": 52,
+   "desc": "A SillyTavern extension that fixes schizo markdown. Also some HTML/JS stuff.",
+   "status": "partial",
+   "reason": "依赖较少，可适配但未完成"
+  },
+  {
+   "id": "tavern-mattjaybe-sillytavern-echotext",
+   "name": "EchoText",
+   "repo": "https://github.com/mattjaybe/SillyTavern-EchoText",
+   "stars": 48,
+   "desc": "A SillyTavern extension that lets you directly message characters.",
+   "status": "partial",
+   "reason": "依赖较少，可适配但未完成"
+  },
+  {
+   "id": "tavern-lol1p0p-narrative-agent",
+   "name": "narrative agent",
+   "repo": "https://github.com/Lol1p0p/narrative-agent",
+   "stars": 46,
+   "desc": "",
+   "status": "partial",
+   "reason": "依赖较少，可适配但未完成"
+  },
+  {
+   "id": "tavern-bincooo-sillytavernextension-jsrunner",
+   "name": "SillyTavernExtension JsRunner",
+   "repo": "https://github.com/bincooo/SillyTavernExtension-JsRunner",
+   "stars": 36,
+   "desc": "",
+   "status": "partial",
+   "reason": "依赖较少，可适配但未完成"
+  },
+  {
+   "id": "tavern-bmen25124-sillytavern-magic-translation",
+   "name": "Magic Translation",
+   "repo": "https://github.com/bmen25124/SillyTavern-Magic-Translation",
+   "stars": 35,
+   "desc": "A SillyTavern extension that translates chat with your favorite LLM.",
+   "status": "partial",
+   "reason": "依赖较少，可适配但未完成"
+  },
+  {
+   "id": "tavern-spadic21-comfyinject",
+   "name": "ComfyInject",
+   "repo": "https://github.com/Spadic21/ComfyInject",
+   "stars": 35,
+   "desc": "",
+   "status": "partial",
+   "reason": "依赖较少，可适配但未完成"
+  },
+  {
+   "id": "tavern-sillytavern-extension-mermaid",
+   "name": "Extension Mermaid",
+   "repo": "https://github.com/SillyTavern/Extension-Mermaid",
+   "stars": 32,
+   "desc": "Adds Mermaid diagrams & flowcharts rendering to SillyTavern chats.",
+   "status": "partial",
+   "reason": "需消息渲染事件 + 图表库打包"
+  },
+  {
+   "id": "tavern-lannashelton-st-outfits",
+   "name": "ST Outfits",
+   "repo": "https://github.com/lannashelton/ST-Outfits",
+   "stars": 32,
+   "desc": "Outfit Tracking Extension for SillyTavern",
+   "status": "partial",
+   "reason": "依赖较少，可适配但未完成"
+  },
+  {
+   "id": "tavern-mmkaverappa-sillytavern-charcardstudio",
+   "name": "CharCardStudio",
+   "repo": "https://github.com/MMKAVERAPPA/SillyTavern-CharCardStudio",
+   "stars": 20,
+   "desc": "SillyTavern extension to create Character Cards and Lore entires using AI",
+   "status": "partial",
+   "reason": "需随插件打包 1 个第三方依赖"
+  },
+  {
+   "id": "tavern-0xl0cal-sillyimages",
+   "name": "sillyimages",
+   "repo": "https://github.com/0xl0cal/sillyimages",
+   "stars": 19,
+   "desc": "SillyTavern extension for inline image generation via [IMG:GEN:{...}] tags",
+   "status": "partial",
+   "reason": "依赖较少，可适配但未完成"
+  },
+  {
+   "id": "tavern-zapoverde-sillytavern-vistalyze",
+   "name": "Vistalyze",
+   "repo": "https://github.com/ZapoVerde/SillyTavern-Vistalyze",
+   "stars": 17,
+   "desc": "Vistalyze is a SillyTavern extension that dynamically generates and applies cinematic backgrounds as your story unfolds. It uses the SillyTavern API for all ima",
+   "status": "partial",
+   "reason": "依赖较少，可适配但未完成"
+  },
+  {
+   "id": "tavern-zapoverde-sillytavern-mobilyze",
+   "name": "mobilyze",
+   "repo": "https://github.com/ZapoVerde/SillyTavern-mobilyze",
+   "stars": 16,
+   "desc": "A SillyTavern extension that applies a proper full-screen mobile layout and auto-hiding top bar to maximise usable chat area on phones.",
+   "status": "partial",
+   "reason": "依赖较少，可适配但未完成"
+  },
+  {
+   "id": "tavern-sillytavern-extension-latex",
+   "name": "Extension LaTeX",
+   "repo": "https://github.com/SillyTavern/Extension-LaTeX",
+   "stars": 15,
+   "desc": "Adds an ability to render LaTeX and AsciiMath formulas in SillyTavern chats.",
+   "status": "partial",
+   "reason": "需消息渲染事件 + KaTeX 打包"
+  },
+  {
+   "id": "tavern-lenanderson-sillytavern-extensionmanager",
+   "name": "ExtensionManager",
+   "repo": "https://github.com/LenAnderson/SillyTavern-ExtensionManager",
+   "stars": 15,
+   "desc": "",
+   "status": "partial",
+   "reason": "依赖较少，可适配但未完成"
+  },
+  {
+   "id": "tavern-b4bysw0rld-sillytavern-smart-dialogue-colorizer",
+   "name": "Smart Dialogue Colorizer",
+   "repo": "https://github.com/b4bysw0rld/SillyTavern-Smart-Dialogue-Colorizer",
+   "stars": 14,
+   "desc": "SillyTavern extension with intelligent dialogue color extraction and quality filtering",
+   "status": "partial",
+   "reason": "依赖较少，可适配但未完成"
+  },
+  {
+   "id": "tavern-izanagi771-stack-story-editor",
+   "name": "Story Editor",
+   "repo": "https://github.com/izanagi771-stack/Story-Editor",
+   "stars": 11,
+   "desc": "Human-supervised continuity and review extension for long-form AI-assisted storytelling in SillyTavern.",
+   "status": "partial",
+   "reason": "需随插件打包 5 个第三方依赖"
+  },
+  {
+   "id": "tavern-aceeenvw-ace-entry-track",
+   "name": "ace entry track",
+   "repo": "https://github.com/aceeenvw/ace-entry-track",
+   "stars": 11,
+   "desc": "Lightweight World Info tracker for SillyTavern — live entries, keyword matches, token budget, diff tracking.",
+   "status": "partial",
+   "reason": "依赖较少，可适配但未完成"
+  },
+  {
+   "id": "tavern-gu-gu-gu-gu-gu-weather-calendar-assistant",
+   "name": "Weather Calendar Assistant",
+   "repo": "https://github.com/Gu-gu-gu-gu-gu/Weather-Calendar-Assistant",
+   "stars": 11,
+   "desc": "SillyTavern 前端扩展：自动解析剧情时间，注入节假日、天气与生理周期提示。",
+   "status": "partial",
+   "reason": "依赖较少，可适配但未完成"
+  },
+  {
+   "id": "tavern-chino-chan-notebook-extension-plus",
+   "name": "Notebook Extension Plus",
+   "repo": "https://github.com/Chino-chan/Notebook-Extension-Plus",
+   "stars": 9,
+   "desc": "Extension for SillyTavern that allows you to add notes per character & also globally.",
+   "status": "partial",
+   "reason": "依赖较少，可适配但未完成"
+  },
+  {
+   "id": "tavern-shuiyue-cmyk-st-acu-visualizer",
+   "name": "st acu visualizer",
+   "repo": "https://github.com/shuiyue-cmyk/st-acu-visualizer",
+   "stars": 9,
+   "desc": "SillyTavern SP·数据库 可视化前端扩展",
+   "status": "partial",
+   "reason": "需随插件打包 1 个第三方依赖"
+  },
+  {
+   "id": "tavern-lenanderson-sillytavern-pluginmanagerplugin",
+   "name": "PluginManagerPlugin",
+   "repo": "https://github.com/LenAnderson/SillyTavern-PluginManagerPlugin",
+   "stars": 8,
+   "desc": "Server plugin for Plugin Manager Extension",
+   "status": "partial",
+   "reason": "依赖较少，可适配但未完成"
+  },
+  {
+   "id": "tavern-spicymarinara-rpg-companion-sillytavern",
+   "name": "rpg companion sillytavern",
+   "repo": "https://github.com/SpicyMarinara/rpg-companion-sillytavern",
+   "stars": 319,
+   "desc": "RPG Companion extension for SillyTavern - Track characters, quests, inventory, and game state with AI-generated content",
+   "status": "unsupported",
+   "reason": "依赖宿主未实现的能力：思维链"
+  },
+  {
+   "id": "tavern-zerxz-sillytavern-extension-zerxzlib",
+   "name": "Extension ZerxzLib",
+   "repo": "https://github.com/ZerxZ/SillyTavern-Extension-ZerxzLib",
+   "stars": 286,
+   "desc": "",
+   "status": "unsupported",
+   "reason": "是供其他扩展调用的公共库，不是独立插件"
+  },
+  {
+   "id": "tavern-cyrilpeng-novel-auto-generator",
+   "name": "Novel Auto Generator",
+   "repo": "https://github.com/CyrilPeng/Novel-Auto-Generator",
+   "stars": 184,
+   "desc": "SillyTavern扩展插件，支持自动化小说生成、智能标签提取、灵活导出",
+   "status": "unsupported",
+   "reason": "工程规模较大（153 个源文件、11 个第三方依赖），暂未适配"
+  },
+  {
+   "id": "tavern-bmen25124-sillytavern-character-creator",
+   "name": "Character Creator",
+   "repo": "https://github.com/bmen25124/SillyTavern-Character-Creator",
+   "stars": 180,
+   "desc": "A SillyTavern extension that creates character with LLMs.",
+   "status": "unsupported",
+   "reason": "工程规模较大（21 个源文件、9 个第三方依赖），暂未适配"
+  },
+  {
+   "id": "tavern-cierru-st-stepped-thinking",
+   "name": "st stepped thinking",
+   "repo": "https://github.com/cierru/st-stepped-thinking",
+   "stars": 172,
+   "desc": "An extension for SillyTavern that lets characters think before responding",
+   "status": "unsupported",
+   "reason": "依赖宿主未实现的能力：界面增强库、模型接口高级版"
+  },
+  {
+   "id": "tavern-sillyanonymous-sillytavern-characterlibrary",
+   "name": "CharacterLibrary",
+   "repo": "https://github.com/Sillyanonymous/SillyTavern-CharacterLibrary",
+   "stars": 144,
+   "desc": "A powerful SillyTavern extension for discovering, organizing, and managing your character library with a modern glassmorphic interface.",
+   "status": "unsupported",
+   "reason": "工程规模较大（71 个源文件、16 个第三方依赖），暂未适配"
+  },
+  {
+   "id": "tavern-bmen25124-sillytavern-worldinfo-recommender",
+   "name": "WorldInfo Recommender",
+   "repo": "https://github.com/bmen25124/SillyTavern-WorldInfo-Recommender",
+   "stars": 130,
+   "desc": "A SillyTavern extension that helps you manage world info based on the current context with LLMs using connection profiles.",
+   "status": "unsupported",
+   "reason": "工程规模较大（20 个源文件、9 个第三方依赖），暂未适配"
+  },
+  {
+   "id": "tavern-hmkovo-acsus-paws-puffs",
+   "name": "Acsus Paws Puffs",
+   "repo": "https://github.com/Hmkovo/Acsus-Paws-Puffs",
+   "stars": 74,
+   "desc": "SillyTavern扩展，提供可视化CSS编辑、字体管理等功能",
+   "status": "unsupported",
+   "reason": "依赖宿主未实现的能力：界面增强库、模型接口高级版、用户人设"
+  },
+  {
+   "id": "tavern-bal-spec-sillytavern-character-memory",
+   "name": "character memory",
+   "repo": "https://github.com/bal-spec/sillytavern-character-memory",
+   "stars": 73,
+   "desc": "SillyTavern extension that automatically extracts structured character memories from chat and stores them in the Data Bank for vector-based retrieval at generat",
+   "status": "unsupported",
+   "reason": "依赖宿主未实现的能力：思维链、世界书引擎"
+  },
+  {
+   "id": "tavern-bronya-rand-guinevere-ui-extension",
+   "name": "Guinevere UI Extension",
+   "repo": "https://github.com/Bronya-Rand/Guinevere-UI-Extension",
+   "stars": 71,
+   "desc": "An UI overhaul extension making your SillyTavern your way",
+   "status": "unsupported",
+   "reason": "依赖宿主未实现的能力：用户人设、世界书引擎"
+  },
+  {
+   "id": "tavern-senjinthedragon-smart-memory",
+   "name": "Smart Memory",
+   "repo": "https://github.com/senjinthedragon/Smart-Memory",
+   "stars": 64,
+   "desc": "A SillyTavern extension providing a multi-tier memory and narrative context system for AI roleplay. Tracks character facts, relationship history, per-character ",
+   "status": "unsupported",
+   "reason": "依赖宿主未实现的能力：思维链、分词器"
+  },
+  {
+   "id": "tavern-bronya-rand-prome-vn-extension",
+   "name": "Prome VN Extension",
+   "repo": "https://github.com/Bronya-Rand/Prome-VN-Extension",
+   "stars": 63,
+   "desc": "An enhanced SillyTavern Visual Novel Experience in an extension",
+   "status": "unsupported",
+   "reason": "依赖宿主未实现的能力：界面增强库、用户人设、用户模块"
+  },
+  {
+   "id": "tavern-inspectorcaracal-sillytavern-rememory",
+   "name": "ReMemory",
+   "repo": "https://github.com/InspectorCaracal/SillyTavern-ReMemory",
+   "stars": 61,
+   "desc": "Yet another SillyTavern memory extension",
+   "status": "unsupported",
+   "reason": "依赖宿主未实现的能力：用户人设、世界书引擎"
+  },
+  {
+   "id": "tavern-closuretxt-recast-post-processing",
+   "name": "recast post processing",
+   "repo": "https://github.com/closuretxt/recast-post-processing",
+   "stars": 59,
+   "desc": "A SillyTavern extension dedicated to prose post-processing.",
+   "status": "unsupported",
+   "reason": "依赖宿主未实现的能力：世界书引擎"
+  },
+  {
+   "id": "tavern-kristyku-inlinesummary",
+   "name": "InlineSummary",
+   "repo": "https://github.com/Kristyku/InlineSummary",
+   "stars": 57,
+   "desc": "InlineSummary - SillyTavern Extension",
+   "status": "unsupported",
+   "reason": "依赖宿主未实现的能力：界面增强库、模型接口高级版、思维链"
+  },
+  {
+   "id": "tavern-dangerdaza-dooms-enhancement-suite",
+   "name": "Dooms Enhancement Suite",
+   "repo": "https://github.com/DangerDaza/Dooms-Enhancement-Suite",
+   "stars": 57,
+   "desc": "An immersive RPG enhancement extension for SillyTavern — character tracking, lore library, TTS highlighting, portrait bar, scene headers, chat bubbles, weather ",
+   "status": "unsupported",
+   "reason": "依赖宿主未实现的能力：模型接口高级版、世界书引擎"
+  },
+  {
+   "id": "tavern-bmen25124-sillytavern-mcp-server",
+   "name": "MCP Server",
+   "repo": "https://github.com/bmen25124/SillyTavern-MCP-Server",
+   "stars": 50,
+   "desc": "A server plugin of MCP for SillyTavern.",
+   "status": "unsupported",
+   "reason": "工程规模较大（5 个源文件、9 个第三方依赖），暂未适配"
+  },
+  {
+   "id": "tavern-bmen25124-sillytavern-custom-scenario",
+   "name": "Custom Scenario",
+   "repo": "https://github.com/bmen25124/SillyTavern-Custom-Scenario",
+   "stars": 41,
+   "desc": "A SillyTavern extension that allows you to create and play interactive character cards.  Want to customize the scenario before starting? Define character traits",
+   "status": "unsupported",
+   "reason": "依赖宿主未实现的能力：界面增强库、世界书引擎"
+  },
+  {
+   "id": "tavern-gamer-mitsuha-sillytavern-auto-illustrator",
+   "name": "auto illustrator",
+   "repo": "https://github.com/gamer-mitsuha/sillytavern-auto-illustrator",
+   "stars": 38,
+   "desc": "A SillyTavern Extension automatically generates images based on the context / story.",
+   "status": "unsupported",
+   "reason": "工程规模较大（65 个源文件、8 个第三方依赖），暂未适配"
+  },
+  {
+   "id": "tavern-forgottenglory-st-superobjective",
+   "name": "ST SuperObjective",
+   "repo": "https://github.com/ForgottenGlory/ST-SuperObjective",
+   "stars": 38,
+   "desc": "A major enhancement and partial rewrite of the existing Objective extension for SillyTavern.",
+   "status": "unsupported",
+   "reason": "依赖宿主未实现的能力：界面增强库"
+  },
+  {
+   "id": "tavern-ghostd93-bettersimtracker",
+   "name": "BetterSimTracker",
+   "repo": "https://github.com/ghostd93/BetterSimTracker",
+   "stars": 38,
+   "desc": "  SillyTavern extension that tracks character relationship stats per message, visualizes history with graphs, and   injects relationship state into prompts for ",
+   "status": "unsupported",
+   "reason": "工程规模较大（198 个源文件、8 个第三方依赖），暂未适配"
+  },
+  {
+   "id": "tavern-platberlitz-sillytavern-image-gen",
+   "name": "image gen",
+   "repo": "https://github.com/platberlitz/sillytavern-image-gen",
+   "stars": 37,
+   "desc": "SillyTavern extension for AI image generation with multiple backend support",
+   "status": "unsupported",
+   "reason": "工程规模较大（79 个源文件、18 个第三方依赖），暂未适配"
+  },
+  {
+   "id": "tavern-mossyfield-st-jeved",
+   "name": "ST jeved",
+   "repo": "https://github.com/mossyfield/ST-jeved",
+   "stars": 33,
+   "desc": "SillyTavern extension that measures each reply and instructs the narrator only when a rule matches.",
+   "status": "unsupported",
+   "reason": "工程规模较大（63 个源文件、5 个第三方依赖），暂未适配"
+  },
+  {
+   "id": "tavern-prompt-and-circumstance-storymode",
+   "name": "StoryMode",
+   "repo": "https://github.com/Prompt-And-Circumstance/StoryMode",
+   "stars": 28,
+   "desc": "A narrative story telling extension for Silly Tavern",
+   "status": "unsupported",
+   "reason": "工程规模较大（165 个源文件、1 个第三方依赖），暂未适配"
+  },
+  {
+   "id": "tavern-theroyallab-st-tabbyapi-loader",
+   "name": "ST tabbyAPI loader",
+   "repo": "https://github.com/theroyallab/ST-tabbyAPI-loader",
+   "stars": 27,
+   "desc": "Loader extension for tabbyAPI in SillyTavern",
+   "status": "unsupported",
+   "reason": "依赖宿主未实现的能力：流式事件流"
+  },
+  {
+   "id": "tavern-inktomi93-sillytavern-charactertools",
+   "name": "CharacterTools",
+   "repo": "https://github.com/Inktomi93/SillyTavern-CharacterTools",
+   "stars": 25,
+   "desc": "SillyTavern extension for analyzing and improving character cards",
+   "status": "unsupported",
+   "reason": "工程规模较大（33 个源文件、10 个第三方依赖），暂未适配"
+  },
+  {
+   "id": "tavern-vitorfdl-sillytavern-cyoa",
+   "name": "Sillytavern CYOA",
+   "repo": "https://github.com/vitorfdl/Sillytavern-CYOA",
+   "stars": 24,
+   "desc": "Extension for Sillytavern that adds CYOA support to User responses.",
+   "status": "unsupported",
+   "reason": "依赖宿主未实现的能力：界面增强库"
+  },
+  {
+   "id": "tavern-lazuli-s-sillytavern-worldinfodrawer",
+   "name": "WorldInfoDrawer",
+   "repo": "https://github.com/lazuli-s/SillyTavern-WorldInfoDrawer",
+   "stars": 24,
+   "desc": "A fork of LenAnderson's WorldInfoDrawer extension for SillyTavern. This version keeps the lorebook editing experience while adding quality-of-life tweaks to mak",
+   "status": "unsupported",
+   "reason": "依赖宿主未实现的能力：世界书引擎"
+  },
+  {
+   "id": "tavern-609476965-dsh-lorebookmd",
+   "name": "dsh LorebookMD",
+   "repo": "https://github.com/609476965/dsh-LorebookMD",
+   "stars": 23,
+   "desc": "DSH lorebook-driven fiction writer plugin: import Tavern/SillyTavern character cards & world books, save local Markdown settings, generate novel prose referenci",
+   "status": "unsupported",
+   "reason": "工程规模较大（16 个源文件、19 个第三方依赖），暂未适配"
+  },
+  {
+   "id": "tavern-wzznne-dsh-cyberworkstation",
+   "name": "DSH CyberWorkStation",
+   "repo": "https://github.com/WZZNNE/DSH-CyberWorkStation",
+   "stars": 23,
+   "desc": "DSH CyberWorkStation — one-click DeepSeek Harness (dsh) bundle: cyberpunk desktop launcher, SillyTavern-grade Control Deck, 8 production plugins, AI skin studio",
+   "status": "unsupported",
+   "reason": "工程规模较大（3482 个源文件、410 个第三方依赖），暂未适配"
+  },
+  {
+   "id": "tavern-mentallyquill-recursion",
+   "name": "Recursion",
+   "repo": "https://github.com/MentallyQuill/Recursion",
+   "stars": 22,
+   "desc": "A Recursive Multi-Step Thinking Extension for SillyTavern, Using Context-Aware Bounded Guidance",
+   "status": "unsupported",
+   "reason": "工程规模较大（275 个源文件、12 个第三方依赖），暂未适配"
+  },
+  {
+   "id": "tavern-youzini-afk-st-bionic-memory-ecology",
+   "name": "ST Bionic Memory Ecology",
+   "repo": "https://github.com/Youzini-afk/ST-Bionic-Memory-Ecology",
+   "stars": 22,
+   "desc": "ST-BME（Bionic Memory Ecology）是一个 SillyTavern 第三方前端扩展。它会把长期聊天中出现的角色、事件、地点、规则、主线、反思和总结抽取成一张可视化记忆图谱，并在下一轮生成前自动召回最相关的记忆注入 prompt。",
+   "status": "unsupported",
+   "reason": "依赖宿主未实现的能力：模型接口高级版"
+  },
+  {
+   "id": "tavern-xenofei-sillytavern-scenepulse",
+   "name": "ScenePulse",
+   "repo": "https://github.com/xenofei/SillyTavern-ScenePulse",
+   "stars": 21,
+   "desc": "AI-powered scene intelligence extension for SillyTavern — tracks characters, relationships, quests, mood, and more in a real-time dashboard",
+   "status": "unsupported",
+   "reason": "工程规模较大（104 个源文件、9 个第三方依赖），暂未适配"
+  },
+  {
+   "id": "tavern-omegastick-sillytavern-cachechunker",
+   "name": "CacheChunker",
+   "repo": "https://github.com/Omegastick/SillyTavern-CacheChunker",
+   "stars": 21,
+   "desc": "Extension for improving cache utilization in Silly Tavern",
+   "status": "unsupported",
+   "reason": "依赖宿主未实现的能力：分词器"
+  },
+  {
+   "id": "tavern-player-minepig-dsh-tavern",
+   "name": "dsh tavern",
+   "repo": "https://github.com/Player-MINEPIG/dsh-tavern",
+   "stars": 18,
+   "desc": "以 DSH 原生会话与执行机制为权威的酒馆兼容插件，提供前后端 API，支持自由组合酒馆能力与 DSH 原生功能。 | A SillyTavern compatibility plugin that keeps DSH authoritative over sessions and execution, with fr",
+   "status": "unsupported",
+   "reason": "工程规模较大（554 个源文件、49 个第三方依赖），暂未适配"
+  },
+  {
+   "id": "tavern-senjinthedragon-sillytavern-discord-connector",
+   "name": "Discord Connector",
+   "repo": "https://github.com/senjinthedragon/SillyTavern-Discord-Connector",
+   "stars": 18,
+   "desc": "Discord bot bridge for SillyTavern - Chat with your characters in real time!",
+   "status": "unsupported",
+   "reason": "工程规模较大（44 个源文件、0 个第三方依赖），暂未适配"
+  },
+  {
+   "id": "tavern-mentallyquill-tavernary",
+   "name": "Tavernary",
+   "repo": "https://github.com/MentallyQuill/Tavernary",
+   "stars": 17,
+   "desc": "A GitHub-native catalog for AI roleplaying tools, extensions, and systems.",
+   "status": "unsupported",
+   "reason": "工程规模较大（613 个源文件、35 个第三方依赖），暂未适配"
+  },
+  {
+   "id": "tavern-leandrojofre-sillytavern-wi-bulk-mover",
+   "name": "WI Bulk Mover",
+   "repo": "https://github.com/leandrojofre/SillyTavern-WI-Bulk-Mover",
+   "stars": 16,
+   "desc": "This is a simple extension that allows you to clone WI entries from one lorebook into another.",
+   "status": "unsupported",
+   "reason": "无法读取源码（可能是打包产物或私有仓库）"
+  },
+  {
+   "id": "tavern-tyranomaster-expressions-plus",
+   "name": "expressions plus",
+   "repo": "https://github.com/Tyranomaster/expressions-plus",
+   "stars": 16,
+   "desc": "All the functionality of SillyTavern's built-in Expressions extension, **PLUS** advanced customization features like expression rules, profiles, and real-time i",
+   "status": "unsupported",
+   "reason": "依赖宿主未实现的能力：界面增强库"
+  },
+  {
+   "id": "tavern-vibecoder9000-extension-tokenusage",
+   "name": "Extension TokenUsage",
+   "repo": "https://github.com/Vibecoder9000/Extension-TokenUsage",
+   "stars": 15,
+   "desc": "A SillyTavern extension that tracks and visualizes token usage for your chats.",
+   "status": "unsupported",
+   "reason": "依赖宿主未实现的能力：分词器"
+  },
+  {
+   "id": "tavern-prolix-oc-sillytavern-lumiversehelper",
+   "name": "LumiverseHelper",
+   "repo": "https://github.com/prolix-oc/SillyTavern-LumiverseHelper",
+   "stars": 15,
+   "desc": "A SillyTavern extension that serves as a companion to the Lucid Loom preset, available on Lucid.cards! Customize Lumia personalities, narrative styles, and more",
+   "status": "unsupported",
+   "reason": "工程规模较大（69 个源文件、7 个第三方依赖），暂未适配"
+  },
+  {
+   "id": "tavern-stagedog-tavern-extension-template",
+   "name": "tavern_extension_template",
+   "repo": "https://github.com/StageDog/tavern_extension_template",
+   "stars": 15,
+   "desc": "SillyTavern 插件编写模板",
+   "status": "unsupported",
+   "reason": "工程规模较大（13 个源文件、25 个第三方依赖），暂未适配"
+  },
+  {
+   "id": "tavern-nemovonnirgend-ember",
+   "name": "Ember",
+   "repo": "https://github.com/NemoVonNirgend/Ember",
+   "stars": 15,
+   "desc": "A Silly Tavern Extension designed to allow for Safe execution of JS within the sillytavern chat window (Similar to CSS or HTML execution)",
+   "status": "unsupported",
+   "reason": "工程规模较大（69 个源文件、5 个第三方依赖），暂未适配"
+  },
+  {
+   "id": "tavern-phampyk-sillytavern-avatarbanner",
+   "name": "AvatarBanner",
+   "repo": "https://github.com/phampyk/SillyTavern-AvatarBanner",
+   "stars": 14,
+   "desc": "SillyTavern Extension to show the avatars as banners on the chat",
+   "status": "unsupported",
+   "reason": "依赖宿主未实现的能力：用户人设"
+  },
+  {
+   "id": "tavern-hikarushmz-fetch-retry",
+   "name": "fetch retry",
+   "repo": "https://github.com/Hikarushmz/fetch-retry",
+   "stars": 13,
+   "desc": "SillyTavern extension that retries failed fetch requests automatically",
+   "status": "unsupported",
+   "reason": "依赖宿主未实现的能力：界面增强库"
+  },
+  {
+   "id": "tavern-lunarblazepony-blazetracker",
+   "name": "BlazeTracker",
+   "repo": "https://github.com/lunarblazepony/BlazeTracker",
+   "stars": 13,
+   "desc": "A SillyTavern extension that uses LLM analysis to track and maintain scene state across roleplay conversations. Helps AI models stay consistent with physical po",
+   "status": "unsupported",
+   "reason": "依赖宿主未实现的能力：世界书引擎"
+  },
+  {
+   "id": "tavern-kissg96-arkhon-memory-st-archive",
+   "name": "arkhon_memory_st_archive",
+   "repo": "https://github.com/kissg96/arkhon_memory_st_archive",
+   "stars": 13,
+   "desc": "LLM, Memory, , agentic AI, python, SillyTavern, plugin, AI, chatbot, arkhon",
+   "status": "unsupported",
+   "reason": "无法读取源码（可能是打包产物或私有仓库）"
+  },
+  {
+   "id": "tavern-selinawynters-ops-st---threadkeeper",
+   "name": "ST   ThreadKeeper",
+   "repo": "https://github.com/selinawynters-ops/ST---ThreadKeeper",
+   "stars": 13,
+   "desc": "LLM-powered memory for long roleplays, keep facts for a fraction of the cost. ",
+   "status": "unsupported",
+   "reason": "依赖宿主未实现的能力：作者注释、模型接口高级版、分词器"
+  },
+  {
+   "id": "tavern-tech-explorer-ai-st-cinemaworld",
+   "name": "ST CinemaWorld",
+   "repo": "https://github.com/Tech-Explorer-AI/ST-CinemaWorld",
+   "stars": 13,
+   "desc": "\"在 AI 创造的世界中游乐。\"  CinemaWorld 是一个为 SillyTavern 设计的沉浸式视觉小说 / RPG 世界引擎扩展。  它把聊天 AI 变成一个真正的\"游戏主持人（GM）\"  你不再只是和 AI 对话，  而是在一个由 AI 动态生成、持续演化的世界里探索、战斗、经营、社交。",
+   "status": "unsupported",
+   "reason": "工程规模较大（68 个源文件、0 个第三方依赖），暂未适配"
+  },
+  {
+   "id": "tavern-sillytavern-extension-spotify",
+   "name": "Extension Spotify",
+   "repo": "https://github.com/SillyTavern/Extension-Spotify",
+   "stars": 12,
+   "desc": " Provides function tools and information about the currently playing song on Spotify in SillyTavern prompts.",
+   "status": "unsupported",
+   "reason": "工程规模较大（12 个源文件、9 个第三方依赖），暂未适配"
+  },
+  {
+   "id": "tavern-archkr-sillytavern-charactervisuals",
+   "name": "CharacterVisuals",
+   "repo": "https://github.com/Archkr/SillyTavern-CharacterVisuals",
+   "stars": 12,
+   "desc": "An extension that enhances the Character Expressions extension in SillyTavern by automatically switching the active costume being used in realtime.",
+   "status": "unsupported",
+   "reason": "依赖宿主未实现的能力：分词器"
+  },
+  {
+   "id": "tavern-mokimoko-sillytavern-whitelotus",
+   "name": "WhiteLotus",
+   "repo": "https://github.com/mokimoko/SillyTavern-WhiteLotus",
+   "stars": 12,
+   "desc": "a companion extension for the White Lotus preset for SillyTavern",
+   "status": "unsupported",
+   "reason": "依赖宿主未实现的能力：模型接口高级版、分词器"
+  },
+  {
+   "id": "tavern-mokimoko-sillytavern-scenariocrafter",
+   "name": "ScenarioCrafter",
+   "repo": "https://github.com/mokimoko/SillyTavern-ScenarioCrafter",
+   "stars": 12,
+   "desc": "a SillyTavern extension that has a variety of scenarios you can play with",
+   "status": "unsupported",
+   "reason": "依赖宿主未实现的能力：用户人设"
+  },
+  {
+   "id": "tavern-hype-hosting-sillytavern-lorebook-studio",
+   "name": "Lorebook Studio",
+   "repo": "https://github.com/hype-hosting/SillyTavern-Lorebook-Studio",
+   "stars": 12,
+   "desc": "Visual 3D node-graph lorebook editor for SillyTavern — organize entries with categories, tags, and workflow tracking.",
+   "status": "unsupported",
+   "reason": "工程规模较大（28 个源文件、7 个第三方依赖），暂未适配"
+  },
+  {
+   "id": "tavern-mentallyquill-tavernarycompanion",
+   "name": "TavernaryCompanion",
+   "repo": "https://github.com/MentallyQuill/TavernaryCompanion",
+   "stars": 11,
+   "desc": "Tavernary Companion Extension for SillyTavern",
+   "status": "unsupported",
+   "reason": "工程规模较大（183 个源文件、17 个第三方依赖），暂未适配"
+  },
+  {
+   "id": "tavern-lkarxa-astrbot-plugin-sillytavern-card",
+   "name": "astrbot_plugin_SillyTavern_card",
+   "repo": "https://github.com/LKarxa/astrbot_plugin_SillyTavern_card",
+   "stars": 11,
+   "desc": "一个将酒馆SillyTavern的PNG角色卡转换为AsstrBot兼容的格式的插件",
+   "status": "unsupported",
+   "reason": "无法读取源码（可能是打包产物或私有仓库）"
+  },
+  {
+   "id": "tavern-rurijian-deep-swipe",
+   "name": "deep swipe",
+   "repo": "https://github.com/Rurijian/deep-swipe",
+   "stars": 10,
+   "desc": "Deep Swipe: A Sillytavern Extension for Swiping deep in context",
+   "status": "unsupported",
+   "reason": "依赖宿主未实现的能力：思维链"
+  },
+  {
+   "id": "tavern-bf-gith-bf-ooc-injection",
+   "name": "bf ooc injection",
+   "repo": "https://github.com/BF-GitH/bf-ooc-injection",
+   "stars": 10,
+   "desc": "SillyTavern extension that prevents repetitive LLM responses through automated, randomized prompt injection. Clean history, zero maintenance.",
+   "status": "unsupported",
+   "reason": "工程规模较大（46 个源文件、0 个第三方依赖），暂未适配"
+  },
+  {
+   "id": "tavern-dummytbanana-st-group-utils",
+   "name": "st group utils",
+   "repo": "https://github.com/DummyTBanana/st-group-utils",
+   "stars": 9,
+   "desc": "A sillytavern extension that helps with groups",
+   "status": "unsupported",
+   "reason": "依赖宿主未实现的能力：分词器"
+  },
+  {
+   "id": "tavern-lenanderson-sillytavern-comfyui",
+   "name": "ComfyUI",
+   "repo": "https://github.com/LenAnderson/SillyTavern-ComfyUI",
+   "stars": 9,
+   "desc": "A copy of the Stable Diffusion extension modified to use ComfyUI",
+   "status": "unsupported",
+   "reason": "依赖宿主未实现的能力：界面增强库"
+  },
+  {
+   "id": "tavern-disreconnected-sillytavern-gfx-repair",
+   "name": "GFX Repair",
+   "repo": "https://github.com/disreconnected/SillyTavern-GFX-Repair",
+   "stars": 9,
+   "desc": "Global, preset-agnostic SillyTavern extension that repairs GFX markers and details/summary panels before regex processing.",
+   "status": "unsupported",
+   "reason": "依赖宿主未实现的能力：模型接口高级版"
+  },
+  {
+   "id": "tavern-promansis-summary-sharder",
+   "name": "summary sharder",
+   "repo": "https://github.com/Promansis/summary-sharder",
+   "stars": 9,
+   "desc": "A summarisation extension for SillyTavern with user-control in mind.",
+   "status": "unsupported",
+   "reason": "依赖宿主未实现的能力：模型接口高级版、世界书引擎"
+  },
+  {
+   "id": "tavern-inktomi93-sillytavern-cardrefinery",
+   "name": "CardRefinery",
+   "repo": "https://github.com/Inktomi93/SillyTavern-CardRefinery",
+   "stars": 9,
+   "desc": "A SillyTavern extension providing an iterative AI pipeline (Score → Rewrite → Analyze) to evaluate, fix, and refine character cards while preserving their core ",
+   "status": "unsupported",
+   "reason": "工程规模较大（123 个源文件、17 个第三方依赖），暂未适配"
+  },
+  {
+   "id": "tavern-pavorlov-sillytavern-interactive-map",
+   "name": "Interactive Map",
+   "repo": "https://github.com/PavOrlov/SillyTavern-Interactive-Map",
+   "stars": 9,
+   "desc": "An extension for SillyTavern that adds support for interactive maps with clickable zones, sound accompaniment, image and video display.  For clarity, my artwork",
+   "status": "unsupported",
+   "reason": "无法读取源码（可能是打包产物或私有仓库）"
+  },
+  {
+   "id": "tavern-lutrodev-dsh-roleplay",
+   "name": "dsh roleplay",
+   "repo": "https://github.com/lutrodev/dsh-roleplay",
+   "stars": 9,
+   "desc": "Roleplay plugin suite for DeepSeek Harness: character cards, lorebooks, personas, presets, state, and conversation tools.",
+   "status": "unsupported",
+   "reason": "工程规模较大（256 个源文件、61 个第三方依赖），暂未适配"
+  },
+  {
+   "id": "tavern-h675786161-prog-world-backstage",
+   "name": "world backstage",
+   "repo": "https://github.com/h675786161-prog/world-backstage",
+   "stars": 9,
+   "desc": "为 SillyTavern 提供后台世界推演、角色轨迹与长期记忆的扩展！φ(>ω<*) ",
+   "status": "unsupported",
+   "reason": "工程规模较大（100 个源文件、6 个第三方依赖），暂未适配"
+  },
+  {
+   "id": "tavern-augieishere-extension-dynamiclore",
+   "name": "Extension DynamicLore",
+   "repo": "https://github.com/AugieIsHere/Extension-DynamicLore",
+   "stars": 8,
+   "desc": "SillyTavern extension for automatically updating World Info entries",
+   "status": "unsupported",
+   "reason": "依赖宿主未实现的能力：世界书引擎"
+  },
+  {
+   "id": "tavern-pigmenttokyo-extension-hiddenwebresearch",
+   "name": "Extension HiddenWebResearch",
+   "repo": "https://github.com/PigmentTokyo/Extension-HiddenWebResearch",
+   "stars": 8,
+   "desc": "Hidden no-floor web research extension for SillyTavern",
+   "status": "unsupported",
+   "reason": "工程规模较大（45 个源文件、7 个第三方依赖），暂未适配"
+  },
+  {
+   "id": "tavern-waylon256yhw-sillytavern-apihub",
+   "name": "ApiHub",
+   "repo": "https://github.com/waylon256yhw/SillyTavern-ApiHub",
+   "stars": 8,
+   "desc": "SillyTavern extension: unified API connection hub (OpenAI/Anthropic/Gemini)",
+   "status": "unsupported",
+   "reason": "依赖宿主未实现的能力：模型接口高级版"
+  },
+  {
+   "id": "tavern-lithiumwaves-danganronpa-sillytavern",
+   "name": "danganronpa sillytavern",
+   "repo": "https://github.com/LithiumWaves/danganronpa-sillytavern",
+   "stars": 8,
+   "desc": "A total conversion extension for SillyTavern that recreates the Danganronpa games core gameplay. Play through investigations, Class Trials and more!",
+   "status": "unsupported",
+   "reason": "无法读取源码（可能是打包产物或私有仓库）"
+  },
+  {
+   "id": "tavern-eval3n4-sillytavern-starmem",
+   "name": "STARmem",
+   "repo": "https://github.com/EvaL3n4/SillyTavern-STARmem",
+   "stars": 8,
+   "desc": "A memory retrieval and extraction system implementing a mixture of different research papers from arXiv.",
+   "status": "unsupported",
+   "reason": "工程规模较大（216 个源文件、16 个第三方依赖），暂未适配"
+  },
+  {
+   "id": "tavern-nialyn-mid-polyceph",
+   "name": "polyceph",
+   "repo": "https://github.com/nialyn-mid/polyceph",
+   "stars": 8,
+   "desc": "An extension for SillyTavern which allows user-defined multi-step chain-of-thought/multi-agent response generation.",
+   "status": "unsupported",
+   "reason": "工程规模较大（64 个源文件、1 个第三方依赖），暂未适配"
+  },
+  {
+   "id": "tavern-retrovioletred-sillytavern-pictureprompt",
+   "name": "PicturePrompt",
+   "repo": "https://github.com/RetroVioletRed/SillyTavern-PicturePrompt",
+   "stars": 8,
+   "desc": "A SillyTavern extension allowing your characters to see the world you're building",
+   "status": "unsupported",
+   "reason": "依赖宿主未实现的能力：模型接口高级版、世界书引擎"
+  }
+ ]
+}
