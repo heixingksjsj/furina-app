@@ -1,6 +1,6 @@
 {
   "show": true,
-  "version": 41,
-  "title": "📬 芙宁娜 v4.7.4 — 邮箱重复修复",
-  "content": "邮箱里一条公告显示成三封，修好了。\n\n原因：判断「是不是同一封」的时候，\n把日期也算进去了。而公告的日期取的是 GitHub 的提交时间，\n每次同步拿到的可能差几秒 ——\n于是同一条公告被当成新邮件，反复追加。\n邮箱 3 分钟同步一次，攒几轮就变成三封四条。\n\n现在改成只按标签判断（公告 v38 / 公告 v39 各自唯一），\n重复同步只会覆盖，不会再累积。\n\n已经中招的不用手动清：\n打开邮箱时会自动去掉重复项。\n\n—— 伟大的芙宁娜女士"
+  "version": 42,
+  "title": "🎉 芙宁娜 v4.7.5 更新",
+  "content": "服务器中转优化完成，更新推送更稳更快。\n\n本次是测试版，主要验证更新链路是否正常。\n\n下载地址：\nhttps://dsheita1.dpdns.org/dl?url=https%3A%2F%2Fgithub.com%2Fheixingksjsj%2Ffurina-app%2Freleases%2Fdownload%2Fv4.7.5%2Ffunina-v4.7.5.apk"
 }
