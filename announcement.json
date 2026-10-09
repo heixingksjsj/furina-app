@@ -1,6 +1,6 @@
 {
   "show": true,
-  "version": 35,
-  "title": "🔧 芙宁娜 v4.6.8 — 更新推送终于修好了",
-  "content": "更新推送收不到，真正的根因找到了。\n\n【根因】\n从 v4.4.9 开始，custom-api-bridge.js 里有一个函数重名：\n解析接口响应的 _safeJson 和解析本地缓存的 _safeJson 撞了名字，\n后者把前者覆盖掉，导致版本检测第一步就报错返回，\n后面的弹窗代码一行都执行不到。\n\n所以从 v4.4.9 起，更新推送一直是坏的，\n之前所有版本都在这个问题之外打转。\n\n【修复】\nv4.6.8 把这个重名改掉了，更新链路恢复。\n\n【下载】\nhttps://dsheita1.dpdns.org/dl?url=https%3A%2F%2Fgithub.com%2Fheixingksjsj%2Ffurina-app%2Freleases%2Fdownload%2Fv4.6.8%2Ffunina-v4.6.8.apk\n\n装完这一版，以后就能正常收到更新推送了。\n\n—— 伟大的芙宁娜女士"
+  "version": 36,
+  "title": "🎉 芙宁娜 v4.6.9 — 更新推送修复验证",
+  "content": "v4.6.8 修好了更新推送的根因（_safeJson 函数重名），这一版是验证版。\n\n你现在装的是 4.6.8，打开 App 应该能收到 v4.6.9 的更新推送。\n\n【如果收到了推送】\n说明链路彻底修好了，以后所有更新都会自动提示。\n\n【如果还是没收到】\n连点页面顶部标题 5 次，会弹出「更新链路诊断」面板，\n把里面的内容发给我，能直接定位问题。\n\n【下载】\nhttps://dsheita1.dpdns.org/dl?url=https%3A%2F%2Fgithub.com%2Fheixingksjsj%2Ffurina-app%2Freleases%2Fdownload%2Fv4.6.9%2Ffunina-v4.6.9.apk\n\n—— 伟大的芙宁娜女士"
 }
