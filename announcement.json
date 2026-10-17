@@ -1,6 +1,6 @@
 {
   "show": true,
-  "version": 55,
-  "title": "关于新增使用次数限制的说明",
-  "content": "<div style=\"line-height:1.85;font-size:15px\">\n<p><b>关于新增使用次数限制的说明</b></p>\n<p>上游接口是按量付费的，这两天的额度已经见底了。为了让所有人都还能继续用，\n从今天起加两条限制：</p>\n<p style=\"background:#fff6e5;border-left:4px solid #ffb020;padding:11px 13px;border-radius:8px;font-size:14px;line-height:1.9\">\n· <b>每人每天 100 次对话</b>（每天 0 点自动重置）<br>\n· <b>每 5 分钟最多 3 次</b>（发得太快会被挡一下，等几十秒就好）\n</p>\n<p><b>只限制聊天。</b>客服反馈、生图、语音、看模型列表全都不受影响 ✓</p>\n<p>撞到上限时 App 会直接弹出提示，照提示等就行 —— 这<span style=\"color:#c2185b\"><b>不是封号</b></span>，\n也不是针对某个人，是全站一起限。</p>\n<p>等上游额度补上，我就把这两条放宽。</p>\n<p style=\"margin-top:16px;font-size:13px;color:#555;background:#f5f9ff;border-left:4px solid #4a9eff;padding:11px 13px;border-radius:8px;line-height:1.8\">\n有意见或者觉得哪条不合理，去 <b>设置 → 客服反馈</b> 找小琉说 —— 客服不受这个限制，随时能进。<br>\n如果账号真的被封了，也是去那里求情。\n</p>\n<p style=\"margin-top:14px;font-size:13px;color:#c2185b\">这段时间给你添麻烦了，抱歉 🙏</p>\n</div>"
+  "version": 56,
+  "title": "认准官方群 1109882375 · 谨防收费诈骗",
+  "content": "<div style=\"line-height:1.85;font-size:15px\">\n<p><b>认准官方群：1109882375</b></p>\n<p>这两天发现有朋友是从别的渠道拿到这个 App 的。说明一下：</p>\n<p style=\"background:#fff6e5;border-left:4px solid #ffb020;padding:11px 13px;border-radius:8px;font-size:14px;line-height:1.9\">\n· 官方只有一个 QQ 群：<b>1109882375</b>（黑塔女士举世无双 · 官方交流群）<br>\n· 只有群里的安装包是我发的，别处的我不能保证安全\n</p>\n<p><b>任何人拿这个 App 跟你要钱，都是骗子。</b>不管包装成「下载费」「激活费」「解锁生图」「去广告」「卖存档」，一律跟我没关系 ——\n遇到直接在群里举报，带截图，我会处理。</p>\n<p style=\"background:#fff0f0;border-left:4px solid #e8455e;padding:11px 13px;border-radius:8px;font-size:14px;line-height:1.9\">\n· 建议<b>一天内进群</b><br>\n· 后台会按是否在群清理账号 —— 一天内没进的，之后会直接拉黑，不再单独通知\n</p>\n<p>已经在用的不用慌：聊天、客服、生图都不受影响 ✓ 进群就行。</p>\n<p style=\"margin-top:16px;font-size:13px;color:#555;background:#f5f9ff;border-left:4px solid #7aa7ff;padding:10px 12px;border-radius:8px\">\n有问题在群里说，或者用 App 里的客服反馈 ✓\n</p>\n</div>"
 }
