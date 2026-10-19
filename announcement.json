@@ -1,6 +1,6 @@
 {
-  "show": false,
-  "version": 80,
-  "title": "",
-  "content": ""
+  "show": true,
+  "version": 81,
+  "title": "4.7.68 已发布",
+  "content": "<p><b>版本 4.7.68</b>（当前 4.7.65 → 4.7.68）</p><ul><li>更新下载地址改为<b>服务器下发</b>，不再写死在安装包里；换线路不用再发版。</li><li>下载源换成纯 IPv4 线路，绕开那条不通的 IPv6。</li><li>修好模型调用的自动切换。</li></ul><p><a class=\"furina-dl-inline\" data-apk=\"https://modelscope.cn/datasets/daheitayihao/furina-app/resolve/master/furina-v4.7.68-signed.apk\">⬇ 在 App 内下载安装（约 66 MB）</a></p><p style=\"opacity:.75;font-size:13px\">如果上面那个按钮点了没反应，用这个链接（浏览器里下同一个文件）：<a class=\"furina-link-inline\" data-url=\"https://modelscope.cn/datasets/daheitayihao/furina-app/resolve/master/furina-v4.7.68-signed.apk\">点这里打开下载链接</a></p>"
 }
