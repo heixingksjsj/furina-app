@@ -17,16 +17,16 @@
     "title": "芙宁娜 v4.7.94",
     "notes": [
       "芙宁娜 v4.7.94 更新说明",
-      "① 新增线路自动切换：主线路不可用时自动改用备用线路，不会整站失联",
-      "② 修复偶发的「连不上服务器」提示，加载更稳",
-      "③ 本版没有其它功能改动，推荐所有用户更新",
-      "（直接覆盖安装即可，数据不受影响）"
+      "① 修复「当前版本」显示错误（之前装的是 4.7.93，弹窗里却写 4.7.65）",
+      "② 新增线路自动切换：主线路不可用时自动改用备用线路，不再整站失联",
+      "③ 修复偶发的「连不上服务器 / 解析失败」提示",
+      "④ 直接覆盖安装即可，聊天记录和账号都不受影响"
     ],
-    "apkUrl": "https://modelscope.cn/datasets/daheitayihao/furina-app/resolve/master/furina-v4.7.94.apk",
-    "apkRaw": "https://modelscope.cn/datasets/daheitayihao/furina-app/resolve/master/furina-v4.7.94.apk",
-    "apkName": "furina-v4.7.94.apk",
+    "apkUrl": "https://modelscope.cn/datasets/daheitayihao/furina-app/resolve/master/furina-v4.7.94-r2.apk",
+    "apkRaw": "https://modelscope.cn/datasets/daheitayihao/furina-app/resolve/master/furina-v4.7.94-r2.apk",
+    "apkName": "furina-v4.7.94-r2.apk",
     "apkSize": 69019482,
-    "publishedAt": "2026-10-20T07:47:53Z",
+    "publishedAt": "2026-10-20T07:55:00Z",
     "forceUpdate": false
   },
   "modelConfig": {
