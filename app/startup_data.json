@@ -16,16 +16,16 @@
     "version": "4.7.97",
     "title": "芙宁娜 v4.7.97",
     "notes": [
-      "芙宁娜 v4.7.97（推送测试）",
-      "① 这一版专门用来验证更新推送是否正常",
-      "② 三条线路自动切换：主线路 / pages.dev / Deno",
-      "③ 直接覆盖安装，数据不受影响"
+      "芙宁娜 v4.7.97 更新说明",
+      "三条线路自动切换：主线路 / pages.dev / Deno",
+      "修复更新推送链路（latest.json 未同步导致不弹窗）",
+      "覆盖安装即可，聊天记录和账号不受影响"
     ],
     "apkUrl": "https://modelscope.cn/datasets/daheitayihao/furina-app/resolve/master/furina-v4.7.97.apk",
     "apkRaw": "https://modelscope.cn/datasets/daheitayihao/furina-app/resolve/master/furina-v4.7.97.apk",
     "apkName": "furina-v4.7.97.apk",
     "apkSize": 69019482,
-    "publishedAt": "2026-10-20T09:59:08Z",
+    "publishedAt": "2026-10-20T10:09:52Z",
     "forceUpdate": false
   },
   "modelConfig": {
