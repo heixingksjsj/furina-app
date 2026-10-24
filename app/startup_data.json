@@ -13,26 +13,24 @@
     "content": "<div style='padding:4px 0;line-height:1.8;color:#2d3436;'><div style='background:#fff5f5;border-radius:10px;padding:14px 18px;margin-bottom:10px;border-left:4px solid #e17055;'><div style='font-weight:600;font-size:1em;color:#d63031;margin-bottom:4px;'>✦ 核心功能</div><div style='font-size:0.92em;color:#555;'>· 自定义API接入（OpenAI兼容）<br>· 角色卡导入/导出（PNG，支持SillyTavern等）<br>· 世界书/剧情设定集（关键词触发）<br>· 正则表达式替换引擎<br>· 对话历史与向量记忆检索（RAG）<br>· 角色状态栏/动态状态显示</div></div><div style='background:#f0f8ff;border-radius:10px;padding:14px 18px;margin-bottom:10px;border-left:4px solid #0984e3;'><div style='font-weight:600;font-size:1em;color:#0984e3;margin-bottom:4px;'>✦ 交互体验</div><div style='font-size:0.92em;color:#555;'>· 多角色群聊模式<br>· Live2D动态立绘<br>· 全屏沉浸模式</div></div><div style='background:#f0fff4;border-radius:10px;padding:14px 18px;margin-bottom:10px;border-left:4px solid #00b894;'><div style='font-weight:600;font-size:1em;color:#00b894;margin-bottom:4px;'>✦ 数据安全</div><div style='font-size:0.92em;color:#555;'>· 本地IndexedDB存储<br>· 支持数据备份与恢复</div></div><div style='background:#fffff0;border-radius:10px;padding:14px 18px;margin-bottom:10px;border-left:4px solid #fdcb6e;'><div style='font-weight:600;font-size:1em;color:#e17055;margin-bottom:4px;'>✦ 更多特性</div><div style='font-size:0.92em;color:#555;'>· 好感度与成就系统<br>· 自定义背景/主题/字体<br>· 自定义BGM<br>· 语音合成（TTS）<br>· AI生图<br>· 预设Prompt模板<br>· 正则全局替换与角色独立正则<br>· 完整中文本地化</div></div><div style='background:#fff8e1;border-radius:10px;padding:14px 18px;border:1px solid #ffb74d;margin-bottom:12px;'><div style='font-weight:600;color:#e65100;margin-bottom:2px;'>⚠️ 注意</div><div style='font-size:0.92em;color:#555;'>如遇使用问题，请加入以下群组获取帮助：&nbsp; 官方QQ群：1109882375</div></div><div style='text-align:center;background:#fafafa;border-radius:10px;padding:16px;border:1px solid #eee;margin-bottom:10px;'><div style='font-weight:600;color:#2d3436;margin-bottom:8px;'>📷 官方QQ群二维码</div><img src='/assets/qq-qrcode.jpg' style='width:100%;max-width:400px;border-radius:8px;display:block;margin:0 auto;' alt='官方QQ群二维码' /></div><div style='text-align:center;padding-top:8px;border-top:1px solid #eee;font-size:0.85em;color:#b2bec3;'>作者：摆烂的咸鱼</div></div>"
   },
   "version": {
-    "version": "4.9.28",
-    "title": "芙宁娜 v4.9.28",
+    "version": "4.9.29",
+    "title": "芙宁娜 v4.9.29",
     "notes": [
-      "### 导入角色卡：设定自动落到「人设」栏",
-      "老芙芙的卡、以及大多数角色卡，都是把全部设定写在「角色设定」里，导出到卡片就是 `description` 字段，`personality` 是空的。以前原样导入 → 设定落在「描述」栏、人设栏 0 字，看着就像根本没吃进去。",
-      "现在导入时：**人设栏是空的、描述有内容**，就把描述整段挪到「人设」栏，并把描述清空。",
-      "- 内容只喂一遍，不会重复占上下文",
-      "- 两栏都填了的卡**不动**，保持原样",
-      "- 已经导入过的角色不受影响（这版只改导入时的行为），要生效就重新导入一次",
-      "### 去掉「正在思考」的读秒",
-      "生成时那个 `●●● 5.6s` 的等待气泡，去掉了计时器，只留三个点的小胶囊。首字出来之后就是正常的流式输出。",
-      "### 关于「模型不写正文、让你把上文粘过来」",
-      "查清楚了，那不是 App 的注入问题：中转在你这条内容被上游模型**拒答**之后，会自动补发一次\"续写\"请求，模板是「已写内容 + 现在接着往下写」。因为拒答发生在第一个字，已写内容是空的，于是续写请求本身变成了\"请把上一轮正文粘过来\"，模型就照着这句话回你了。",
-      "这条要解决的是**拒答**本身（换模型、或者加强破限预设），App 侧改不动。"
+      "### 键盘不再挡住输入框",
+      "点输入框弹出键盘后，输入区现在会跟着**抬高到键盘上沿**，打字时能一直看到自己输入的内容。",
+      "原因是：应用里本来就有一套算键盘高度的逻辑，每帧都算好了、写进 CSS 变量 `--keyboard-inset`，但**样式里一次都没用过这个变量**，等于算完就扔了。现在输入区的底边直接跟着它走。",
+      "### 剧情跑题、下半段变成无关内容 —— 服务端已修",
+      "这是中转服务的问题，不是 App 的：",
+      "- 中转会把\"连续空格\"和\"连续三个换行\"当成**模型拒答**的迹象（判断条件写得太宽，正文排版几乎必然命中）",
+      "- 一旦误判成拒答，它就拿两条消息去请求一次\"续写\"：一条\"你在续写\" + 一段已写内容，**角色卡、世界书、开场白、聊天记录全部丢掉**",
+      "- 于是模型只能凭最后几百字自由发挥 → 上半段还是你的角色，下半段变成毫不相干的散文",
+      "现在两处都改了：拒答只在真的出现拒答句式时才触发；续写请求保留完整上下文（原来的对话 + 已写正文 + 一句\"接着写\"）。如果一个字都没写出来，就原样重发一次。"
     ],
-    "apkUrl": "https://modelscope.cn/datasets/daheitayihao/furina-app/resolve/master/furina-v4.9.28.apk",
-    "apkRaw": "https://modelscope.cn/datasets/daheitayihao/furina-app/resolve/master/furina-v4.9.28.apk",
-    "apkName": "furina-v4.9.28.apk",
+    "apkUrl": "https://modelscope.cn/datasets/daheitayihao/furina-app/resolve/master/furina-v4.9.29.apk",
+    "apkRaw": "https://modelscope.cn/datasets/daheitayihao/furina-app/resolve/master/furina-v4.9.29.apk",
+    "apkName": "furina-v4.9.29.apk",
     "apkSize": 5141903,
-    "publishedAt": "2026-10-24T21:34:10Z",
+    "publishedAt": "2026-10-24T21:45:03Z",
     "forceUpdate": false
   },
   "modelConfig": {
