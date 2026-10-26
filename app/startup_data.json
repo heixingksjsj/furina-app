@@ -17,15 +17,19 @@
     "title": "芙宁娜 v5.02.6",
     "notes": [
       "芙宁娜 v5.02.6 更新说明",
-      "修复更新提示与公告同步的问题。",
-      "签名与上一版一致，可以直接覆盖安装。"
+      "预设：认酒馆预设的各种包装（外层套 preset / settings / presets 数组），",
+      "prompt_order 四种写法都能按原顺序展开，占位标记不再被当成正文",
+      "正则：认 regexes / scripts / 角色卡内嵌的 extensions.regex_scripts，",
+      "字段别名 find / replace / pattern / output 都认",
+      "世界书：认 lorebook / world_info / 卡内嵌的 character_book.entries，",
+      "正文写在 text / value 里也能读出来，位置枚举补齐示例消息前后"
     ],
-    "apkUrl": "https://modelscope.cn/datasets/daheitayihao/furina-app/resolve/master/furina-v5.02.6-signed.apk",
-    "apkRaw": "https://modelscope.cn/datasets/daheitayihao/furina-app/resolve/master/furina-v5.02.6-signed.apk",
-    "apkName": "furina-v5.02.6-signed.apk",
-    "apkSize": 0,
+    "apkUrl": "https://modelscope.cn/datasets/daheitayihao/furina-app/resolve/master/furina-v5.02.6.apk",
+    "apkRaw": "https://modelscope.cn/datasets/daheitayihao/furina-app/resolve/master/furina-v5.02.6.apk",
+    "apkName": "furina-v5.02.6.apk",
+    "apkSize": 5224156,
     "forceUpdate": false,
-    "publishedAt": "2026-10-20T10:30:00Z"
+    "publishedAt": "2026-10-27T07:24:22Z"
   },
   "modelConfig": {
     "version": 27,
