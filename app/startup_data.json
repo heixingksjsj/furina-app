@@ -17,15 +17,19 @@
     "title": "芙宁娜 v5.02.7",
     "notes": [
       "芙宁娜 v5.02.7 更新说明",
-      "修复更新提示与公告同步的问题。",
-      "签名与上一版一致，可以直接覆盖安装。"
+      "新增「资料库」：把设定文档丢进去，聊天时按相关度自动检索并接进提示词",
+      "新增朗读设置：系统语音和服务端音色都能用，语速、音调、音量可调",
+      "新增自动朗读：AI 说完自动念，可以闭着眼睛听",
+      "预设 / 正则 / 世界书导入都放宽了，SillyTavern 的写法现在能直接吃进去",
+      "世界书增强：区分大小写、整词匹配、次要关键词、粘滞与冷却",
+      "修复下载更新失败（服务器 404）"
     ],
     "apkUrl": "https://modelscope.cn/datasets/daheitayihao/furina-app/resolve/master/furina-v5.02.7.apk",
     "apkRaw": "https://modelscope.cn/datasets/daheitayihao/furina-app/resolve/master/furina-v5.02.7.apk",
     "apkName": "furina-v5.02.7.apk",
     "apkSize": 5240540,
     "forceUpdate": false,
-    "publishedAt": "2026-10-27T07:54:36Z"
+    "publishedAt": "2026-10-27T07:59:39Z"
   },
   "modelConfig": {
     "version": 27,
