@@ -24,12 +24,12 @@
       "位置隔了十六万字。",
       "模型不是不听话，是根本没抓住。所以现在每条世界书多了一个开关："
     ],
-    "apkUrl": "https://modelscope.cn/datasets/daheitayihao/furina-app/resolve/master/furina-v5.03.1.apk",
-    "apkRaw": "https://modelscope.cn/datasets/daheitayihao/furina-app/resolve/master/furina-v5.03.1.apk",
+    "apkUrl": "https://api.daheita.ccwu.cc/dl?url=https%3A%2F%2Fgithub.com%2Fheixingksjsj%2Ffurina-app%2Freleases%2Fdownload%2Fv5.03.1%2Ffurina-v5.03.1.apk",
+    "apkRaw": "https://github.com/heixingksjsj/furina-app/releases/download/v5.03.1/furina-v5.03.1.apk",
     "apkName": "furina-v5.03.1.apk",
     "apkSize": 5257038,
     "forceUpdate": false,
-    "publishedAt": "2026-10-27T09:53:54Z"
+    "publishedAt": "2026-10-27T10:04:33Z"
   },
   "modelConfig": {
     "version": 27,
