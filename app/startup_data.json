@@ -17,15 +17,19 @@
     "title": "芙宁娜 v5.10.8",
     "notes": [
       "芙宁娜 v5.10.8 更新说明",
-      "修复更新提示与公告同步的问题。",
-      "签名与上一版一致，可以直接覆盖安装。"
+      "角色管理：彻底移除搜索栏右侧多余手机图标，恢复纯净网格视图",
+      "角色管理：新增批量删除模式，支持卡片长按500ms震动直接触发",
+      "多开场白适配：角色卡包含多个开场白剧本时，点击弹出剧本选择",
+      "角色工坊：支持原地覆盖更新已有卡片，保留UUID与聊天历史记录",
+      "角色工坊：开场白与正则解耦，新增开场白独立面板与UI实时预览",
+      "角色工坊：常驻提供新建卡片与导入卡片，新增AI角色卡体检问询助手"
     ],
     "apkUrl": "https://modelscope.cn/datasets/daheitayihao/furina-app/resolve/master/furina-v5.10.8.apk",
     "apkRaw": "https://github.com/heixingksjsj/furina-app/releases/download/v5.10.8/furina-v5.10.8.apk",
     "apkName": "furina-v5.10.8.apk",
-    "apkSize": 5310430,
+    "apkSize": 5314526,
     "forceUpdate": false,
-    "publishedAt": "2026-10-28T07:01:16Z"
+    "publishedAt": "2026-10-28T07:32:59Z"
   },
   "modelConfig": {
     "version": 27,
