@@ -24,12 +24,12 @@
       "自适应执行器：卡片里吐出来的脚本会被切出来单独执行（5.02.8 加的）。",
       "你截图里漏出来的 `}));` + `function sendData(text)` 就是它带来的。"
     ],
-    "apkUrl": "https://api.daheita.ccwu.cc/dl?url=https%3A%2F%2Fgithub.com%2Fheixingksjsj%2Ffurina-app%2Freleases%2Fdownload%2Fv5.04.0%2Ffurina-v5.04.0.apk",
+    "apkUrl": "https://modelscope.cn/datasets/daheitayihao/furina-app/resolve/master/furina-v5.04.0.apk",
     "apkRaw": "https://github.com/heixingksjsj/furina-app/releases/download/v5.04.0/furina-v5.04.0.apk",
     "apkName": "furina-v5.04.0.apk",
     "apkSize": 5183138,
     "forceUpdate": false,
-    "publishedAt": "2026-10-27T10:12:16Z"
+    "publishedAt": "2026-10-27T10:15:39Z"
   },
   "modelConfig": {
     "version": 27,
