@@ -13,23 +13,23 @@
     "content": "<div style='padding:4px 0;line-height:1.8;color:#2d3436;'><div style='background:#fff5f5;border-radius:10px;padding:14px 18px;margin-bottom:10px;border-left:4px solid #e17055;'><div style='font-weight:600;font-size:1em;color:#d63031;margin-bottom:4px;'>✦ 核心功能</div><div style='font-size:0.92em;color:#555;'>· 自定义API接入（OpenAI兼容）<br>· 角色卡导入/导出（PNG，支持SillyTavern等）<br>· 世界书/剧情设定集（关键词触发）<br>· 正则表达式替换引擎<br>· 对话历史与向量记忆检索（RAG）<br>· 角色状态栏/动态状态显示</div></div><div style='background:#f0f8ff;border-radius:10px;padding:14px 18px;margin-bottom:10px;border-left:4px solid #0984e3;'><div style='font-weight:600;font-size:1em;color:#0984e3;margin-bottom:4px;'>✦ 交互体验</div><div style='font-size:0.92em;color:#555;'>· 多角色群聊模式<br>· Live2D动态立绘<br>· 全屏沉浸模式</div></div><div style='background:#f0fff4;border-radius:10px;padding:14px 18px;margin-bottom:10px;border-left:4px solid #00b894;'><div style='font-weight:600;font-size:1em;color:#00b894;margin-bottom:4px;'>✦ 数据安全</div><div style='font-size:0.92em;color:#555;'>· 本地IndexedDB存储<br>· 支持数据备份与恢复</div></div><div style='background:#fffff0;border-radius:10px;padding:14px 18px;margin-bottom:10px;border-left:4px solid #fdcb6e;'><div style='font-weight:600;font-size:1em;color:#e17055;margin-bottom:4px;'>✦ 更多特性</div><div style='font-size:0.92em;color:#555;'>· 好感度与成就系统<br>· 自定义背景/主题/字体<br>· 自定义BGM<br>· 语音合成（TTS）<br>· AI生图<br>· 预设Prompt模板<br>· 正则全局替换与角色独立正则<br>· 完整中文本地化</div></div><div style='background:#fff8e1;border-radius:10px;padding:14px 18px;border:1px solid #ffb74d;margin-bottom:12px;'><div style='font-weight:600;color:#e65100;margin-bottom:2px;'>⚠️ 注意</div><div style='font-size:0.92em;color:#555;'>如遇使用问题，请加入以下群组获取帮助：&nbsp; 官方QQ群：1109882375</div></div><div style='text-align:center;background:#fafafa;border-radius:10px;padding:16px;border:1px solid #eee;margin-bottom:10px;'><div style='font-weight:600;color:#2d3436;margin-bottom:8px;'>📷 官方QQ群二维码</div><img src='/assets/qq-qrcode.jpg' style='width:100%;max-width:400px;border-radius:8px;display:block;margin:0 auto;' alt='官方QQ群二维码' /></div><div style='text-align:center;padding-top:8px;border-top:1px solid #eee;font-size:0.85em;color:#b2bec3;'>作者：摆烂的咸鱼</div></div>"
   },
   "version": {
-    "version": "5.10.2",
-    "title": "芙宁娜 v5.10.2",
+    "version": "5.10.3",
+    "title": "芙宁娜 v5.10.3",
     "notes": [
-      "芙宁娜 v5.10.2 更新说明",
-      "﻿# 5.10.2 — 键盘抬升改为「重叠量」而不是「键盘总高度」",
-      "现象：5.10.1 抬得过高。",
-      "原因：系统（adjustResize/adjustPan）已经把 WebView 顶上去一部分，",
-      "我又按键盘总高度抬了一次 ⇒ 双重抬升，多出来的正好是系统已顶上去的那部分。",
-      "改法：原生侧改成算「键盘压住了 WebView 多少」：",
-      "overlap = webViewBottom(屏幕坐标) − getWindowVisibleDisplayFrame().bottom"
+      "芙宁娜 v5.10.3 更新说明",
+      "﻿# 5.10.3 — 键盘对齐改成「量出来的」，不再传高度",
+      "前两版都栽在同一件事上：推过去一个\"高度\"，网页拿去做位移。",
+      "但系统可能已经 resize/pan 过页面，也可能原生像素和 CSS px 差一个 dpr，",
+      "任何一处不一致就变成抬飞或者抬不到位。",
+      "现在原生推两个屏幕坐标（真实像素）：",
+      "webTop = WebView 顶边 Y（被 pan 时是负值）"
     ],
-    "apkUrl": "https://modelscope.cn/datasets/daheitayihao/furina-app/resolve/master/furina-v5.10.2.apk",
-    "apkRaw": "https://github.com/heixingksjsj/furina-app/releases/download/v5.10.2/furina-v5.10.2.apk",
-    "apkName": "furina-v5.10.2.apk",
-    "apkSize": 5302238,
+    "apkUrl": "https://modelscope.cn/datasets/daheitayihao/furina-app/resolve/master/furina-v5.10.3.apk",
+    "apkRaw": "https://github.com/heixingksjsj/furina-app/releases/download/v5.10.3/furina-v5.10.3.apk",
+    "apkName": "furina-v5.10.3.apk",
+    "apkSize": 5306334,
     "forceUpdate": false,
-    "publishedAt": "2026-10-27T15:45:35Z"
+    "publishedAt": "2026-10-27T15:57:14Z"
   },
   "modelConfig": {
     "version": 27,
