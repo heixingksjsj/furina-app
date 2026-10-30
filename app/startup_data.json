@@ -17,19 +17,19 @@
     "title": "芙宁娜 v5.15.8",
     "notes": [
       "芙宁娜 v5.15.8 更新说明",
-      "芙宁娜 v5.15.8 更新说明",
       "独立记忆库改成「本地整理」：不再每轮发一条模型请求，零额度占用",
       "修复归档失败后每条消息都重试的问题（新增 5 分钟冷却），不再把 TPM 额度吃光导致翻译和出图失败",
       "修复记忆库重启后被清空：归档条目缺少 classicMemory 标记，装载时被整本过滤掉，现在已补上并兼容旧条目",
       "设置「记忆」卡新增开关「用模型整理（更准，耗额度）」，默认不勾＝本地规则整理",
-      "归档间隔仍可设 3 / 5 / 10 / 20 轮，按需调整"
+      "归档间隔仍可设 3 / 5 / 10 / 20 轮，按需调整",
+      "签名与上一版一致，可直接覆盖安装，角色卡、聊天记录、世界书、预设全部保留"
     ],
     "apkUrl": "https://modelscope.cn/datasets/daheitayihao/furina-app/resolve/master/furina-v5.15.8.apk",
     "apkRaw": "https://github.com/heixingksjsj/furina-app/releases/download/v5.15.8/furina-v5.15.8.apk",
     "apkName": "furina-v5.15.8.apk",
     "apkSize": 13137754,
     "forceUpdate": false,
-    "publishedAt": "2026-10-31T02:33:35Z"
+    "publishedAt": "2026-10-31T02:34:51Z"
   },
   "modelConfig": {
     "version": 27,
