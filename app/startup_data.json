@@ -13,22 +13,21 @@
     "content": "<div style='padding:4px 0;line-height:1.8;color:#2d3436;'><div style='background:#f0f8ff;border-radius:10px;padding:14px 18px;margin-bottom:10px;border-left:4px solid #0984e3;'><div style='font-weight:600;font-size:1em;color:#0984e3;margin-bottom:4px;'>✦ 自定义生图优化与修复</div><div style='font-size:0.92em;color:#555;'>· 步数规范锁定为 28 步：彻底修复之前 40 步导致上游扣除 27 点余额并报错“额度不足”的问题，现标准单张稳定消耗 1 点额度<br>· 双网关协议支持：新增 STA1N 绘图站 (https://nai.sta1n.cn) 与 STA1N 接入网关 (https://cdn.sta1n.cn/v1) 支持，支持密钥智能前缀识别<br>· 专属中转高质量代理：自带密钥同样享受 Danbooru 提示词转写、角色外貌特征提取与画风锚定</div></div><div style='background:#fff5f5;border-radius:10px;padding:14px 18px;margin-bottom:10px;border-left:4px solid #e17055;'><div style='font-weight:600;font-size:1em;color:#d63031;margin-bottom:4px;'>✦ 现代复杂酒馆卡与 MVU 适配</div><div style='font-size:0.92em;color:#555;'>· 环境依赖检测全绿通过：内置沙箱环境桥，完美支持《独占配信中v1.2》等高级交互卡，顺畅解锁“开始游戏”<br>· 消息创建闭环：实现 createChatMessages / addOneMessage 等接口打通聊天流<br>· 模板动态插值：系统提示词与世界书全面支持 EJS 动态插值与变量联动<br>· 状态栏与卡片修复：修复外部卡片高度截断和无限变长问题，支持触摸图片丝滑滑动屏幕</div></div><div style='background:#f0fff4;border-radius:10px;padding:14px 18px;margin-bottom:10px;border-left:4px solid #00b894;'><div style='font-weight:600;font-size:1em;color:#00b894;margin-bottom:4px;'>✦ 平滑升级</div><div style='font-size:0.92em;color:#555;'>· 本版签名与历史版本完全一致，直接下载覆盖安装即可，聊天数据与角色卡完全保留。</div></div></div>"
   },
   "version": {
-    "version": "5.15.9",
-    "title": "芙宁娜 v5.15.9",
+    "version": "5.16.0",
+    "title": "芙宁娜 v5.16.0",
     "notes": [
-      "芙宁娜 v5.15.9 更新说明",
-      "根本原因是拆模块时四个函数被整块删掉、只留了返回空值的兼容壳，删除路径拿到空值后直接抛错，消息自然删不掉",
-      "顺带修好「回复一直加载、点中止也没反应」：重新生成的流程在报错后没走到收尾，界面就永远停在生成中；现在中止后会自动复位",
-      "正则表里混进空条目时不再让整页渲染打包崩掉（先过滤再执行）",
-      "消息编辑保存、楼层记忆清理都恢复正常",
-      "签名与上一版一致，可直接覆盖安装，角色卡、聊天记录、世界书、预设、记忆库全部保留"
+      "芙宁娜 v5.16.0 更新说明",
+      "字数探针续写时，如果角色卡带状态栏，气泡里会出现两份状态栏 —— 现在只留最后一份（续写那份是最新状态，优先用它）",
+      "续写指令里补一句：上文末尾已有状态栏时不要再写一份，只写正文续段",
+      "段尾面板识别覆盖纯文本（◆ ■ ● 表格）和整块 HTML 两种写法，普通正文不会被误切",
+      "签名与上一版一致，可覆盖安装，角色卡、聊天记录、世界书、预设、记忆库全部保留"
     ],
-    "apkUrl": "https://modelscope.cn/datasets/daheitayihao/furina-app/resolve/master/furina-v5.15.9.apk",
-    "apkRaw": "https://github.com/heixingksjsj/furina-app/releases/download/v5.15.9/furina-v5.15.9.apk",
-    "apkName": "furina-v5.15.9.apk",
-    "apkSize": 13137754,
+    "apkUrl": "https://modelscope.cn/datasets/daheitayihao/furina-app/resolve/master/furina-v5.16.0.apk",
+    "apkRaw": "https://github.com/heixingksjsj/furina-app/releases/download/v5.16.0/furina-v5.16.0.apk",
+    "apkName": "furina-v5.16.0.apk",
+    "apkSize": 13141850,
     "forceUpdate": false,
-    "publishedAt": "2026-10-31T02:56:33Z"
+    "publishedAt": "2026-10-31T03:07:29Z"
   },
   "modelConfig": {
     "version": 27,
