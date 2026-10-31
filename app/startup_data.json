@@ -13,19 +13,23 @@
     "content": "<div style='padding:4px 0;line-height:1.8;color:#2d3436;'><div style='background:#f0f8ff;border-radius:10px;padding:14px 18px;margin-bottom:10px;border-left:4px solid #0984e3;'><div style='font-weight:600;font-size:1em;color:#0984e3;margin-bottom:4px;'>✦ 自定义生图优化与修复</div><div style='font-size:0.92em;color:#555;'>· 步数规范锁定为 28 步：彻底修复之前 40 步导致上游扣除 27 点余额并报错“额度不足”的问题，现标准单张稳定消耗 1 点额度<br>· 双网关协议支持：新增 STA1N 绘图站 (https://nai.sta1n.cn) 与 STA1N 接入网关 (https://cdn.sta1n.cn/v1) 支持，支持密钥智能前缀识别<br>· 专属中转高质量代理：自带密钥同样享受 Danbooru 提示词转写、角色外貌特征提取与画风锚定</div></div><div style='background:#fff5f5;border-radius:10px;padding:14px 18px;margin-bottom:10px;border-left:4px solid #e17055;'><div style='font-weight:600;font-size:1em;color:#d63031;margin-bottom:4px;'>✦ 现代复杂酒馆卡与 MVU 适配</div><div style='font-size:0.92em;color:#555;'>· 环境依赖检测全绿通过：内置沙箱环境桥，完美支持《独占配信中v1.2》等高级交互卡，顺畅解锁“开始游戏”<br>· 消息创建闭环：实现 createChatMessages / addOneMessage 等接口打通聊天流<br>· 模板动态插值：系统提示词与世界书全面支持 EJS 动态插值与变量联动<br>· 状态栏与卡片修复：修复外部卡片高度截断和无限变长问题，支持触摸图片丝滑滑动屏幕</div></div><div style='background:#f0fff4;border-radius:10px;padding:14px 18px;margin-bottom:10px;border-left:4px solid #00b894;'><div style='font-weight:600;font-size:1em;color:#00b894;margin-bottom:4px;'>✦ 平滑升级</div><div style='font-size:0.92em;color:#555;'>· 本版签名与历史版本完全一致，直接下载覆盖安装即可，聊天数据与角色卡完全保留。</div></div></div>"
   },
   "version": {
-    "version": "5.17.9",
-    "title": "芙宁娜 v5.17.9",
+    "version": "5.18.2",
+    "title": "芙宁娜 v5.18.2",
     "notes": [
-      "芙宁娜 v5.17.9 更新说明",
-      "修复更新提示与公告同步的问题。",
-      "签名与上一版一致，可以直接覆盖安装。"
+      "芙宁娜 v5.18.2 更新说明",
+      "新增幼态剧情静默保护：检测到明确未成年设定时自动降智升温，让模型自带防护接手，剧情继续推进",
+      "保护只改请求参数，不往提示词写任何指令，破限预设与括号协议都碰不到它",
+      "新增续写依据提示：让模型回头看一眼自己写过的上文，用既成事实说服自己继续写",
+      "新增上文拒写迹象检测：出现「我不能继续」这类句子时同样降智升温",
+      "修复长对话中靠前的年龄声明被截断、导致保护静默失效的问题",
+      "签名与上一版完全一致，可以直接覆盖安装，聊天记录与角色卡全部保留"
     ],
-    "apkUrl": "https://modelscope.cn/datasets/daheitayihao/furina-app/resolve/master/furina-v5.17.9.apk",
-    "apkRaw": "https://github.com/heixingksjsj/furina-app/releases/download/v5.17.9/furina-v5.17.9.apk",
-    "apkName": "furina-v5.17.9.apk",
+    "apkUrl": "https://modelscope.cn/datasets/daheitayihao/furina-app/resolve/master/furina-v5.18.2.apk",
+    "apkRaw": "https://github.com/heixingksjsj/furina-app/releases/download/v5.18.2/furina-v5.18.2.apk",
+    "apkName": "furina-v5.18.2.apk",
     "apkSize": 13182810,
     "forceUpdate": false,
-    "publishedAt": "2026-10-31T10:02:19Z"
+    "publishedAt": "2026-10-31T11:35:40Z"
   },
   "modelConfig": {
     "version": 27,
