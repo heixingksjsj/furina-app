@@ -35,9 +35,9 @@
       "阅读位置以前存的是绝对像素值，正文一长那个数就相当于「回到顶部」。",
       "现在改存「距底部的距离」，内容再长也能落回原来的相对位置。"
     ],
-    "apkUrl": "https://desktop-dude0bg.tailb5dc6c.ts.net:8443/dl?url=https%3A%2F%2Fgithub.com%2Fheixingksjsj%2Ffurina-app%2Freleases%2Fdownload%2Fv5.19.2%2Ffunina-v5.19.2.apk",
+    "apkUrl": "https://modelscope.cn/datasets/daheitayihao/furina-app/resolve/master/furina-v5.19.2.apk",
     "apkRaw": "https://github.com/heixingksjsj/furina-app/releases/download/v5.19.2/funina-v5.19.2.apk",
-    "apkName": "funina-v5.19.2.apk",
+    "apkName": "furina-v5.19.2.apk",
     "apkSize": 13199283,
     "forceUpdate": false,
     "publishedAt": "2026-10-31T10:41:31Z"
